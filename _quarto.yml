@@ -1,0 +1,17 @@
+project:
+  type: website
+
+website:
+  title: "teach-with-quarto"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
