@@ -21,12 +21,4 @@ Quarto is an open-source scientific and technical publishing system that unifies
 
 **Session chair:** Allison Theobold - Cal Poly
 
-**Session speakers:**
-
--   Mine Çetinkaya-Rundel - Duke University + Posit: Welcome to Quarto: From course notes to journal articles to books
--   Elijah Meyer - Duke University: Teaching Quarto in Intro to Data Science
--   Kelly Bodwin - Cal Poly: Blending R and Python in Quarto documents
--   Colin Rundel - Duke University: Quarto and automation in teaching statistical computing
--   Maria Tackett - Duke University: Using Quarto for Making and Organizing Teaching Materials
-
 ## Talks
