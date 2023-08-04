@@ -1,0 +1,5 @@
+---
+title: "Welcome to Quarto: From course notes to journal articles to books"
+author: Mine Çetinkaya-Rundel
+description: Quarto is a reproducible authoring system that unifies and extends the R Markdown ecosystem and enables you to weave together your code and prose to create documents, presentations, websites, books, and even journal articles. In this talk we will introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators.
+---

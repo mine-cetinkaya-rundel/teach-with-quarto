@@ -4,4 +4,6 @@ subtitle: JSM 2023
 listing:
   contents: talks
   type: grid
+  sort:
+    - "title asc"
 ---
