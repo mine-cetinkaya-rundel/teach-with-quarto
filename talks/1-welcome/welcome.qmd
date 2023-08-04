@@ -1,0 +1,14 @@
+---
+title: "Welcome to Quarto: From course notes to journal articles to books"
+format: revealjs
+---
+
+# Section 1
+
+## Slide 1
+
+## Slide 2
+
+# Section 2
+
+## Slide 3

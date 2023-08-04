@@ -1,0 +1,19 @@
+---
+title: Blending R and Python in Quarto documents
+author: Kelly Bodwin
+subtitle: "2:45 - 3:05"
+description: 'Overview of the advantages and drawbacks of using Quarto for "bilingual" materials in the data science classroom as well as tips and tricks for managing these blended documents.'
+---
+
+## Abstract
+
+Data science teams are increasingly "multilingual", using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for "bilingual" materials in the data science classroom. I'll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents.
+
+## Slides
+
+```{=html}
+<iframe class="slide-deck" src="talks/3-r-python/r-python.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+## Speaker
+
+Kelly Bodwin ...

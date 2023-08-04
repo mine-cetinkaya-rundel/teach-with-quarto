@@ -1,0 +1,19 @@
+---
+title: Teaching Quarto in Introduction to Data Science Courses
+author: Elijah Meyer
+subtitle: "2:25 - 2:45"
+description: Share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University.
+---
+
+## Abstract
+
+Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective.
+
+## Slides
+
+```{=html}
+<iframe class="slide-deck" src="talks/2-intro-ds/intro-ds.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+```
+## Speaker
+
+Elijah Meyer ...

@@ -1,5 +1,0 @@
----
-title: Using Quarto for Making and Organizing Teaching Materials
-author: Maria Tackett
-description: In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we've been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices. 
----
