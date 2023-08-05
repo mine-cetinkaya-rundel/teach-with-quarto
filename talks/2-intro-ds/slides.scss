@@ -1,0 +1,64 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+
+$font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
+$presentation-heading-color: #325b74; /* Pantone Midnight - Fall 2022 */
+$presentation-title-slide-text-align: "left";
+$link-color: #325b74;
+$code-block-font-size: 0.7em;
+
+/*-- scss:rules --*/
+
+
+details>summary {
+  font-size: 0.75em;
+}
+
+#title-slide .subtitle {
+  color: #325b74;
+  font-weight: bold
+}
+
+#title-slide .author {
+  text-align: center;
+}
+
+#title-slide .institute {
+  text-align: center;
+}
+
+#title-slide .date {
+  text-align: left;
+
+}
+
+
+.small {
+  font-size: 0.75em;
+}
+
+.reveal .slide .question {
+  border-left: 3px solid #325b74;
+  padding-left: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background: #D9E3E4;
+}
+
+.reveal .slide .poll {
+  border-left: 3px solid #fcd06b; /* Pantone Samoan Sun - Fall 2022 */
+  padding-left: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  background: #FFEDC2;
+}
+
+.reveal .slide .appex {
+  border-left: 3px solid #1f7349; /* Pantone Amazon - Fall 2022 */
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  background: #EBF7FF;
+}

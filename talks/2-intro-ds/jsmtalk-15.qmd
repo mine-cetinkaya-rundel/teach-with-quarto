@@ -1,0 +1,218 @@
+---
+title: "Teaching <br> in Introductory Data Science"
+title-slide-attributes:
+  data-background-image: /images/lines.png, /images/quarto_logo.png
+  data-background-size: 25% , 31%
+  data-background-position: left , 62% 18% 
+author: "Dr. Elijah Meyer"
+institute: "Duke University"
+date: now
+format: 
+  revealjs:
+    incremental: true 
+    slide-number: c
+    show-slide-number: all
+    theme: [dark, slides.scss]
+bibliography: references.bib
+---
+
+## Outline
+
+::: nonincremental
+1.  How
+
+2.  Benefits
+:::
+
+## How: Application Exercises
+
+![](images/ae-demo.gif){width="800" height="450"}
+
+## When First Teaching
+
+-- Stick to "what's familiar"
+
+-- Stick to "basics"
+
+## Visual vs Source Tab
+
+::: {#fig-R2 layout-ncol="2"}
+![](images/source.png){#fig-s}
+
+![](images/visual.png){#fig-v}
+
+Source (a) vs Visual (b)
+:::
+
+## Quarto Layout
+
+![](images/quarto2.png){fig-align="center"}
+
+## Quarto as a Teaching Tool
+
+Once students have the layout...Lean into what Quarto has to offer
+
+-   Informative Syntax and Completion
+
+-   Informative Error Messages
+
+## Informative Syntax and Completion
+
+![](images/figure-set.gif){width="1000" height="600"}
+
+## Informative Errors and Common Mistakes
+
+Approachability of Quarto error messages alleviates some tension in an intro class
+
+## Missing Syntax
+
+![](images/commonmistake1.png){fig-align="center"}
+
+## Missing Syntax
+
+![](images/commonmistake1.png){fig-align="center"}
+
+![](images/commonanswer1.png){width="1300" height="250" fig-align="center"}
+
+## Indentation Error
+
+![](images/commonmistake2.png){fig-align="center"}
+
+## Indentation Error
+
+![](images/commonmistake2.png){fig-align="center"}
+
+![](images/commonanswer2.png){width="1300" height="250" fig-align="center"}
+
+# How do we set this up?
+
+## In-class activity
+
+Use well scaffolded Quarto documents
+
+-- provide the code early
+
+-- provide documentation
+
+-- fill in the blank code
+
+-- provide code with errors
+
+## Suggestions: In-class activity
+
+```{css echo=FALSE}
+.column {
+text-align: left;
+}
+```
+
+::: columns
+::: {.column width="50%"}
+Minimal chunk options
+
+-- `label:`
+
+-- `warning:`
+
+-- `message:`
+
+-- `echo:`
+
+-- figure options
+:::
+
+::: {.column width="50%"}
+Minimal YAML
+
+-- `title:`
+
+-- `author:`
+
+-- `format:`
+
+-- `editor:`
+:::
+:::
+
+## In-class activity
+
+Render early and often!
+
+-- provide check points to build habit
+
+-- [Example Application Exercise](link%20to%20it)
+
+# Benefits
+
+## From the student's perspective
+
+-- Useful tool: Good habit to build for future coursework + career
+
+-- Proof of work: A project they can take with them
+
+## Project with Quarto
+
+![](images/projectvid.gif){width="1000" height="600"}
+
+## How we do it
+
+![](images/project1.png){width="700" height="600"}
+
+## How we do it
+
+![](images/project2.png){width="700" height="600"}
+
+## Project: Professional Document
+
+Rmarkdown:
+
+```{r}
+#| eval: false
+#| echo: true
+knitr::opts_chunk$set(echo = FALSE)  
+```
+
+Quarto:
+
+```{r}
+#| eval: false
+#| echo: true
+title: "Project Title" 
+execute:
+  echo: false
+
+```
+
+Quarto: easier to get started and attempts to "smooth" the edges of R-markdown
+
+## From the instructor's perspective
+
+Efficiency
+
+-- Reproducible lessons to adapt
+
+-- Consistent formatting = easier grading
+
+## Going Beyond
+
+Citations
+
+![](images/citation.png){fig-align="center"}
+
+## In Summary
+
+-- Start **minimal** and build up!
+
+-- Continuously practice
+
+-- Reproducibility becomes not optional
+
+-- Know that the investment pays off
+
+# Questions
+
+## Motivation Example
+
+![Lack of Trust in Science [@fanelli2018]](images/pnas.png){fig-align="left" fig-alt="Crisis" width="730"}
+
+## References
