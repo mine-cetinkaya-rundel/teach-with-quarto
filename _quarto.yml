@@ -1,5 +1,8 @@
 project:
   type: website
+  resources:
+    - talks/2-intro-ds/images/lines.png
+    - images/2-intro-ds/quarto_logo.png
 
 website:
   #logo: jsm-logo.png
