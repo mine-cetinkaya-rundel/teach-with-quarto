@@ -37,9 +37,9 @@ bibliography: references.bib
 ## Visual vs Source Tab
 
 ::: {#fig-R2 layout-ncol="2"}
-![](images/source.png){#fig-s}
+![](images/source2.png){#fig-s}
 
-![](images/visual.png){#fig-v}
+![](images/visual2.png){#fig-v}
 
 Source (a) vs Visual (b)
 :::
