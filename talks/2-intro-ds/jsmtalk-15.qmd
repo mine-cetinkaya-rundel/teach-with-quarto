@@ -58,7 +58,7 @@ Once students have the layout...Lean into what Quarto has to offer
 
 ## Informative Syntax and Completion
 
-![](images/figure-set.gif){width="1000" height="300"}
+![](images/figure-set.gif){wheidth="1000" height="300"}
 
 ## Informative Errors and Common Mistakes
 
@@ -157,9 +157,11 @@ Minimal YAML
 
 Render early and often!
 
+::: nonincremental
 -   provide check points to build habit
 
--   [Example Application Exercise](link%20to%20it)
+- [Example Application Exercise](https://github.com/ElijahMeyer3/demo-ae)
+:::
 
 # Benefits
 
