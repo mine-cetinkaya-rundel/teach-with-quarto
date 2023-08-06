@@ -35,60 +35,53 @@
     "text": "Speaker\nElijah Meyer …"
   },
   {
-    "objectID": "talks/3-r-python/3-index.html",
-    "href": "talks/3-r-python/3-index.html",
-    "title": "Blending R and Python in Quarto documents",
+    "objectID": "talks/4-automation/4-index.html",
+    "href": "talks/4-automation/4-index.html",
+    "title": "Quarto and automation in teaching statistical computing",
     "section": "",
-    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
+    "text": "In this talk we will discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses. These courses span the undergraduate and graduate curriculum and make use of both R and Python. The flexibility and power of the Quarto framework provide for the development of common tooling and workflows that can be adapted the specific needs of each course. We will provide concrete examples of how these tools are currently being used in these courses as well as discussing how they can be extended and adopted for new courses."
   },
   {
-    "objectID": "talks/3-r-python/3-index.html#abstract",
-    "href": "talks/3-r-python/3-index.html#abstract",
-    "title": "Blending R and Python in Quarto documents",
+    "objectID": "talks/4-automation/4-index.html#abstract",
+    "href": "talks/4-automation/4-index.html#abstract",
+    "title": "Quarto and automation in teaching statistical computing",
     "section": "",
-    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
+    "text": "In this talk we will discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses. These courses span the undergraduate and graduate curriculum and make use of both R and Python. The flexibility and power of the Quarto framework provide for the development of common tooling and workflows that can be adapted the specific needs of each course. We will provide concrete examples of how these tools are currently being used in these courses as well as discussing how they can be extended and adopted for new courses."
   },
   {
-    "objectID": "talks/3-r-python/3-index.html#slides",
-    "href": "talks/3-r-python/3-index.html#slides",
-    "title": "Blending R and Python in Quarto documents",
+    "objectID": "talks/4-automation/4-index.html#slides",
+    "href": "talks/4-automation/4-index.html#slides",
+    "title": "Quarto and automation in teaching statistical computing",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "talks/3-r-python/3-index.html#speaker",
-    "href": "talks/3-r-python/3-index.html#speaker",
-    "title": "Blending R and Python in Quarto documents",
+    "objectID": "talks/4-automation/4-index.html#speaker",
+    "href": "talks/4-automation/4-index.html#speaker",
+    "title": "Quarto and automation in teaching statistical computing",
     "section": "Speaker",
-    "text": "Speaker\nKelly Bodwin …"
+    "text": "Speaker\nColin Rundel …"
   },
   {
-    "objectID": "talks/1-welcome/1-index.html",
-    "href": "talks/1-welcome/1-index.html",
+    "objectID": "talks/1-welcome/welcome.html#slide-1",
+    "href": "talks/1-welcome/welcome.html#slide-1",
     "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "",
-    "text": "Quarto is a reproducible authoring system that unifies and extends the R Markdown ecosystem and enables you to weave together your code and prose to create documents, presentations, websites, books, and even journal articles. In this talk we will introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators."
+    "section": "Slide 1",
+    "text": "Slide 1"
   },
   {
-    "objectID": "talks/1-welcome/1-index.html#abstract",
-    "href": "talks/1-welcome/1-index.html#abstract",
+    "objectID": "talks/1-welcome/welcome.html#slide-2",
+    "href": "talks/1-welcome/welcome.html#slide-2",
     "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "",
-    "text": "Quarto is a reproducible authoring system that unifies and extends the R Markdown ecosystem and enables you to weave together your code and prose to create documents, presentations, websites, books, and even journal articles. In this talk we will introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators."
+    "section": "Slide 2",
+    "text": "Slide 2"
   },
   {
-    "objectID": "talks/1-welcome/1-index.html#slides",
-    "href": "talks/1-welcome/1-index.html#slides",
+    "objectID": "talks/1-welcome/welcome.html#slide-3",
+    "href": "talks/1-welcome/welcome.html#slide-3",
     "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "Slides",
-    "text": "Slides"
-  },
-  {
-    "objectID": "talks/1-welcome/1-index.html#speaker",
-    "href": "talks/1-welcome/1-index.html#speaker",
-    "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "Speaker",
-    "text": "Speaker\nMine Çetinkaya-Rundel …"
+    "section": "Slide 3",
+    "text": "Slide 3"
   },
   {
     "objectID": "talks/5-teaching-materials/5-index.html",
@@ -119,53 +112,235 @@
     "text": "Speaker\nMaria Tackett …"
   },
   {
-    "objectID": "talks/1-welcome/welcome.html#slide-1",
-    "href": "talks/1-welcome/welcome.html#slide-1",
+    "objectID": "talks/1-welcome/1-index.html",
+    "href": "talks/1-welcome/1-index.html",
     "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "Slide 1",
-    "text": "Slide 1"
-  },
-  {
-    "objectID": "talks/1-welcome/welcome.html#slide-2",
-    "href": "talks/1-welcome/welcome.html#slide-2",
-    "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "Slide 2",
-    "text": "Slide 2"
-  },
-  {
-    "objectID": "talks/1-welcome/welcome.html#slide-3",
-    "href": "talks/1-welcome/welcome.html#slide-3",
-    "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "Slide 3",
-    "text": "Slide 3"
-  },
-  {
-    "objectID": "talks/4-automation/4-index.html",
-    "href": "talks/4-automation/4-index.html",
-    "title": "Quarto and automation in teaching statistical computing",
     "section": "",
-    "text": "In this talk we will discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses. These courses span the undergraduate and graduate curriculum and make use of both R and Python. The flexibility and power of the Quarto framework provide for the development of common tooling and workflows that can be adapted the specific needs of each course. We will provide concrete examples of how these tools are currently being used in these courses as well as discussing how they can be extended and adopted for new courses."
+    "text": "Quarto is a reproducible authoring system that unifies and extends the R Markdown ecosystem and enables you to weave together your code and prose to create documents, presentations, websites, books, and even journal articles. In this talk we will introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators."
   },
   {
-    "objectID": "talks/4-automation/4-index.html#abstract",
-    "href": "talks/4-automation/4-index.html#abstract",
-    "title": "Quarto and automation in teaching statistical computing",
+    "objectID": "talks/1-welcome/1-index.html#abstract",
+    "href": "talks/1-welcome/1-index.html#abstract",
+    "title": "Welcome to Quarto: From course notes to journal articles to books",
     "section": "",
-    "text": "In this talk we will discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses. These courses span the undergraduate and graduate curriculum and make use of both R and Python. The flexibility and power of the Quarto framework provide for the development of common tooling and workflows that can be adapted the specific needs of each course. We will provide concrete examples of how these tools are currently being used in these courses as well as discussing how they can be extended and adopted for new courses."
+    "text": "Quarto is a reproducible authoring system that unifies and extends the R Markdown ecosystem and enables you to weave together your code and prose to create documents, presentations, websites, books, and even journal articles. In this talk we will introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators."
   },
   {
-    "objectID": "talks/4-automation/4-index.html#slides",
-    "href": "talks/4-automation/4-index.html#slides",
-    "title": "Quarto and automation in teaching statistical computing",
+    "objectID": "talks/1-welcome/1-index.html#slides",
+    "href": "talks/1-welcome/1-index.html#slides",
+    "title": "Welcome to Quarto: From course notes to journal articles to books",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "talks/4-automation/4-index.html#speaker",
-    "href": "talks/4-automation/4-index.html#speaker",
-    "title": "Quarto and automation in teaching statistical computing",
+    "objectID": "talks/1-welcome/1-index.html#speaker",
+    "href": "talks/1-welcome/1-index.html#speaker",
+    "title": "Welcome to Quarto: From course notes to journal articles to books",
     "section": "Speaker",
-    "text": "Speaker\nColin Rundel …"
+    "text": "Speaker\nMine Çetinkaya-Rundel …"
+  },
+  {
+    "objectID": "talks/3-r-python/3-index.html",
+    "href": "talks/3-r-python/3-index.html",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "",
+    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
+  },
+  {
+    "objectID": "talks/3-r-python/3-index.html#abstract",
+    "href": "talks/3-r-python/3-index.html#abstract",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "",
+    "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
+  },
+  {
+    "objectID": "talks/3-r-python/3-index.html#slides",
+    "href": "talks/3-r-python/3-index.html#slides",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "talks/3-r-python/3-index.html#speaker",
+    "href": "talks/3-r-python/3-index.html#speaker",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "Speaker",
+    "text": "Speaker\nKelly Bodwin …"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#outline",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#outline",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Outline",
+    "text": "Outline\n\n\nHow\nBenefits"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#how-application-exercises",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#how-application-exercises",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "How: Application Exercises",
+    "text": "How: Application Exercises"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#when-first-teaching",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#when-first-teaching",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "When First Teaching",
+    "text": "When First Teaching\n– Stick to “what’s familiar”\n– Stick to “basics”"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#visual-vs-source-tab",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#visual-vs-source-tab",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Visual vs Source Tab",
+    "text": "Visual vs Source Tab\n\n\n\n\n\n\n\n(a)\n\n\n\n\n\n\n\n(b)\n\n\n\n\nFigure 1: Source (a) vs Visual (b)"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#quarto-layout",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#quarto-layout",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Quarto Layout",
+    "text": "Quarto Layout"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#quarto-as-a-teaching-tool",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#quarto-as-a-teaching-tool",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Quarto as a Teaching Tool",
+    "text": "Quarto as a Teaching Tool\nOnce students have the layout…Lean into what Quarto has to offer\n\nInformative Syntax and Completion\nInformative Error Messages"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#informative-syntax-and-completion",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#informative-syntax-and-completion",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Informative Syntax and Completion",
+    "text": "Informative Syntax and Completion"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#informative-errors-and-common-mistakes",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#informative-errors-and-common-mistakes",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Informative Errors and Common Mistakes",
+    "text": "Informative Errors and Common Mistakes\nApproachability of Quarto error messages alleviates some tension in an intro class"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#missing-syntax",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#missing-syntax",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Missing Syntax",
+    "text": "Missing Syntax"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#missing-syntax-1",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#missing-syntax-1",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Missing Syntax",
+    "text": "Missing Syntax"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#indentation-error",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#indentation-error",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Indentation Error",
+    "text": "Indentation Error"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#indentation-error-1",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#indentation-error-1",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Indentation Error",
+    "text": "Indentation Error"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "In-class activity",
+    "text": "In-class activity\nUse well scaffolded Quarto documents\n– provide the code early\n– provide documentation\n– fill in the blank code\n– provide code with errors"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#suggestions-in-class-activity",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#suggestions-in-class-activity",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Suggestions: In-class activity",
+    "text": "Suggestions: In-class activity\n\n\n\n\n\nMinimal chunk options\n– label:\n– warning:\n– message:\n– echo:\n– figure options\n\nMinimal YAML\n– title:\n– author:\n– format:\n– editor:"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity-1",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity-1",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "In-class activity",
+    "text": "In-class activity\nRender early and often!\n– provide check points to build habit\n– Example Application Exercise"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#from-the-students-perspective",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#from-the-students-perspective",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "From the student’s perspective",
+    "text": "From the student’s perspective\n– Useful tool: Good habit to build for future coursework + career\n– Proof of work: A project they can take with them"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#project-with-quarto",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#project-with-quarto",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Project with Quarto",
+    "text": "Project with Quarto"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#how-we-do-it",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#how-we-do-it",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "How we do it",
+    "text": "How we do it"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#how-we-do-it-1",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#how-we-do-it-1",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "How we do it",
+    "text": "How we do it"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#project-professional-document",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#project-professional-document",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Project: Professional Document",
+    "text": "Project: Professional Document\nRmarkdown:\n\nknitr::opts_chunk$set(echo = FALSE)  \n\nQuarto:\n\ntitle: \"Project Title\" \nexecute:\n  echo: false\n\nQuarto: easier to get started and attempts to “smooth” the edges of R-markdown"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#from-the-instructors-perspective",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#from-the-instructors-perspective",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "From the instructor’s perspective",
+    "text": "From the instructor’s perspective\nEfficiency\n– Reproducible lessons to adapt\n– Consistent formatting = easier grading"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#going-beyond",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#going-beyond",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Going Beyond",
+    "text": "Going Beyond\nCitations"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#in-summary",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#in-summary",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "In Summary",
+    "text": "In Summary\n– Start minimal and build up!\n– Continuously practice\n– Reproducibility becomes not optional\n– Know that the investment pays off"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#motivation-example",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#motivation-example",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Motivation Example",
+    "text": "Motivation Example\n\nLack of Trust in Science (Fanelli 2018)"
+  },
+  {
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#references",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#references",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\nFanelli, Daniele. 2018. “Is Science Really Facing a Reproducibility Crisis, and Do We Need It To?” Proceedings of the National Academy of Sciences 115 (11): 2628–31. https://doi.org/10.1073/pnas.1708272114."
   },
   {
     "objectID": "index.html",
