@@ -140,7 +140,7 @@ Render early and often!
 
 -- provide check points to build habit
 
--- [Example Application Exercise](link%20to%20it)
+-- [Example Application Exercise](https://github.com/ElijahMeyer3/demo-ae)
 
 # Benefits
 
