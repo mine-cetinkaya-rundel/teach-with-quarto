@@ -12,8 +12,8 @@ In this talk we will discuss the use of GitHub actions and Quarto to provide aut
 ## Slides
 
 ```{=html}
-<iframe class="slide-deck" src="talks/4-automation/automation.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="https://rundel.github.io/Presentations/JSM2023/jsm2023.html#/title-slide" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 ## Speaker
 
-Colin Rundel ...
+Colin Rundel is Associate Professor of the Practice at Duke University where he has been teaching since 2012. His work focuses on teaching statistical computing to both undergraduate and graduate students in both R and Python.
