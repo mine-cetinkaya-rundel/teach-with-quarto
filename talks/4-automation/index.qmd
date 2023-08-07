@@ -17,4 +17,6 @@ In this talk we will discuss the use of GitHub actions and Quarto to provide aut
 ```
 ## Speaker
 
+![](colin.jpeg){style="float: right; padding-left: 10px;" fig-alt="Headshot of Colin" width="300"}
+
 Colin Rundel is Associate Professor of the Practice at Duke University where he has been teaching since 2012. His work focuses on teaching statistical computing to both undergraduate and graduate students in both R and Python.
