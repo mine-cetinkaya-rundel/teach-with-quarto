@@ -13,6 +13,7 @@ format:
     theme: welcome.scss
     multiplex: true
     transition: fade
+    embed-resources: true
 execute:
   echo: true
 ---
@@ -126,11 +127,11 @@ Markdown, that can be edited with any editor, including RStudio's source or visu
 
 ::: columns
 ::: {.column width="50%"}
-R code chunks executed with **knitr** 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANABBAEQAUQBBAE0AdwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBJAHcAQQBnAEEARgBJAEEASQBBAEIAagBBAEcAOABBAFoAQQBCAGwAQQBDAEEAQQBaAHcAQgB2AEEARwBVAEEAYwB3AEEAZwBBAEcAZwBBAFoAUQBCAHkAQQBHAFUAQQBDAGcAQgBnAEEARwBBAEEAWQBBAEEAPQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
+R code chunks executed with **knitr** 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANABBAEQAWQBBAE8AUQBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBJAHcAQQBnAEEARgBJAEEASQBBAEIAagBBAEcAOABBAFoAQQBCAGwAQQBDAEEAQQBaAHcAQgB2AEEARwBVAEEAYwB3AEEAZwBBAEcAZwBBAFoAUQBCAHkAQQBHAFUAQQBDAGcAQgBnAEEARwBBAEEAWQBBAEEAPQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
 :::
 
 ::: {.column width="50%"}
-Python, Julia, or Observable code chunks executed with **Jupyter** 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANQBBAEQAYwBBAE0AdwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgAQQBBAGUAUQBCADAAQQBHAGcAQQBiAHcAQgB1AEEASAAwAEEAZgBRAEEASwBBAEMATQBBAEkAQQBCAFEAQQBIAGsAQQBkAEEAQgBvAEEARwA4AEEAYgBnAEEAZwBBAEcATQBBAGIAdwBCAGsAQQBHAFUAQQBJAEEAQgBuAEEARwA4AEEAWgBRAEIAegBBAEMAQQBBAGEAQQBCAGwAQQBIAEkAQQBaAFEAQQBLAEEARwBBAEEAWQBBAEIAZwBBAEEAPQA9AAoAcwB1AGYAZgBpAHgAOgA=:31b8e172-b470-440e-83d8-e6b185028602
+Python, Julia, and Observable chunks executed with **jupyter** 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANQBBAEQAawBBAE4AZwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBJAHcAQQBnAEEARgBBAEEAZQBRAEIAMABBAEcAZwBBAGIAdwBCAHUAQQBDAEEAQQBZAHcAQgB2AEEARwBRAEEAWgBRAEEAZwBBAEcAYwBBAGIAdwBCAGwAQQBIAE0AQQBJAEEAQgBvAEEARwBVAEEAYwBnAEIAbABBAEEAbwBBAFkAQQBCAGcAQQBHAEEAQQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
 :::
 :::
 
@@ -138,31 +139,43 @@ Python, Julia, or Observable code chunks executed with **Jupyter** 31b8e172-b470
 
 ## Documents
 
-. . .
-
+```{=html}
+<script src="https://fast.wistia.com/embed/medias/1nh2c8jcpl.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.04% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_1nh2c8jcpl seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/1nh2c8jcpl/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+```
 ::: notes
--   Open the simple Quarto document called `index.qmd` and edit it using the RStudio Visual Editor.
-
--   Bold palmerpenguins and add link to <https://allisonhorst.github.io/palmerpenguins/>.
-
--   Add code chunk options:
-
-    -   `fig-alt`
-
-    -   `echo: false` in `execute` in the YAML
-
-    -   `code-fold`
-
-    -   teaching tip: `echo: fenced`
-
--   Add a figure and a table and cross reference them
-
--   Add a citation: 10.1371/journal.pone.0090081
+-   Bold palmerpenguins and add link to <https://allisonhorst.github.io/palmerpenguins/.>
+-   Add code chunk options with YAML completion:
+    -   fig-alt
+    -   code-fold
+    -   echo: fenced
+-   Annotate table making code \# \<1\>
+    1.  Take `penguins` data frame , and then, \# \<2\>
+    2.  Slice the top 10 rows, and then, \# \<3\>
+    3.  Select the variables indicates, and then, \# \<4\>
+    4.  Make a gt table
+-   Add code-annotation: hover to YAML, and then change to code-annotation: select, and then remove
+-   Add a citation: 10.1371/journal.pone.0090081 to palmerpenguins
+-   Make document PDF
 :::
 
 ## Slides
 
-. . .
+```{=html}
+<script src="https://fast.wistia.com/embed/medias/100yca01j9.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.21% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_100yca01j9 seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/100yca01j9/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+```
+::: notes
+-   Change format: revealjs
+
+-   Add section headings: First level headings Introduction and Analysis, under Analysis a second level heading called Modeling
+
+-   Add columns to slides
+
+-   Reveal code with echo: true
+
+-   teaching-tip: code-line-numbers
+
+-   Change output-location of figure
+:::
 
 ## Journal articles
 
