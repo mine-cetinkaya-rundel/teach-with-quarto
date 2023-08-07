@@ -1,5 +1,9 @@
 ---
-title: "Teaching Quarto in Introductory Data Science"
+title: "Teaching <br> in Introductory Data Science"
+title-slide-attributes:
+  data-background-image: /images/quarto_logo.png
+  data-background-size: 31%
+  data-background-position: 62% 18% 
 author: "Dr. Elijah Meyer"
 institute: "Duke University"
 date: now
