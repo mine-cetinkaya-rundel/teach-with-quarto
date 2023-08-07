@@ -80,7 +80,7 @@ editor: visual
 :::
 
 ::: {.column width="50%"}
-![](images/yaml-less.png)
+![](images/yaml-less.png){fig-alt="Rendered YAML with title (Hello, Penguins!)."}
 :::
 :::
 
@@ -100,7 +100,7 @@ editor: visual
 :::
 
 ::: {.column width="50%"}
-![](images/yaml-more.png)
+![](images/yaml-more.png){fig-alt="Rendered YAML with title (Hello, Penguins!), author (Mine Çetinkaya-Rundel), affiliation (Duke University), and published date (August 7, 2023)"}
 :::
 :::
 
@@ -110,11 +110,11 @@ Markdown, that can be edited with any editor, including RStudio's source or visu
 
 ::: columns
 ::: {.column width="50%"}
-![](images/source-editor.png)
+![](images/source-editor.png){fig-alt="Top of the document titled penguins.qmd in the RStudio source editor, including YAML, headings, text, and a code chunk for loading packages."}
 :::
 
 ::: {.column width="50%"}
-![](images/visual-editor.png)
+![](images/visual-editor.png){fig-alt="Top of the document titled penguins.qmd in the RStudio visual editor, including YAML, headings, text, and a code chunk for loading packages."}
 :::
 :::
 
