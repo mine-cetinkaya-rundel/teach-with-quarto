@@ -1,9 +1,9 @@
 ---
 title: "Teaching <br> in Introductory Data Science"
 title-slide-attributes:
-  data-background-image: images/lines.png, images/quarto_logo.png
-  data-background-size: 25% , 31%
-  data-background-position: left, 62% 18% 
+  data-background-image: images/quarto_logo.png
+  data-background-size: 31%
+  data-background-position: 62% 18% 
 author: "Dr. Elijah Meyer"
 institute: "Duke University"
 date: now
@@ -26,27 +26,27 @@ bibliography: references.bib
 
 ## How: Application Exercises
 
-![](images/ae-demo.gif){width="800" height="450"}
+![](images/ae-demo.gif){width="1000" height="600"}
 
 ## When First Teaching
 
--- Stick to "what's familiar"
+-   Stick to "what's familiar"
 
--- Stick to "basics"
+-   Stick to "basics"
 
 ## Visual vs Source Tab
 
 ::: {#fig-R2 layout-ncol="2"}
-![](images/source2.png){#fig-s}
+![](images/source2.png){#fig-s width="1000"}
 
-![](images/visual2.png){#fig-v}
+![](images/visual2.png){#fig-v width="1000"}
 
 Source (a) vs Visual (b)
 :::
 
 ## Quarto Layout
 
-![](images/quarto2.png){fig-align="center"}
+![](images/quarto2.png){fig-align="center" width="1000"}
 
 ## Quarto as a Teaching Tool
 
@@ -66,23 +66,42 @@ Approachability of Quarto error messages alleviates some tension in an intro cla
 
 ## Missing Syntax
 
-![](images/commonmistake1.png){fig-align="center"}
+```{{r}}
+#| label: plot1
+#| warning false
+```
 
-## Missing Syntax
+. . .
 
-![](images/commonmistake1.png){fig-align="center"}
+<br>
 
-![](images/commonanswer1.png){width="1300" height="250" fig-align="center"}
+In the **Background Jobs** pane:
+
+``` bash
+Scanner error: while scanning a simple key at line 2, column 1 could not find
+  expected : at line 3, column 1
+```
 
 ## Indentation Error
 
-![](images/commonmistake2.png){fig-align="center"}
+``` yaml
+title: "Demo Document"
+  author: "Student 1"
+format: html
+editor: visual
+```
 
-## Indentation Error
+. . .
 
-![](images/commonmistake2.png){fig-align="center"}
+<br>
 
-![](images/commonanswer2.png){width="1300" height="250" fig-align="center"}
+In the **Background Jobs** pane:
+
+``` bash
+ERROR: YAMLError: bad indentation of a mapping entry at line 3, column 3:
+      author: "Student 1"
+      ^
+```
 
 # How do we set this up?
 
@@ -90,13 +109,13 @@ Approachability of Quarto error messages alleviates some tension in an intro cla
 
 Use well scaffolded Quarto documents
 
--- provide the code early
+-   provide the code early
 
--- provide documentation
+-   provide documentation
 
--- fill in the blank code
+-   fill in the blank code
 
--- provide code with errors
+-   provide code with errors
 
 ## Suggestions: In-class activity
 
@@ -110,27 +129,24 @@ text-align: left;
 ::: {.column width="50%"}
 Minimal chunk options
 
--- `label:`
-
--- `warning:`
-
--- `message:`
-
--- `echo:`
-
--- figure options
+::: nonincremental
+-   `label:`
+-   `warning:`
+-   `message:`
+-   `echo:`
+-   figure options
+:::
 :::
 
 ::: {.column width="50%"}
 Minimal YAML
 
--- `title:`
-
--- `author:`
-
--- `format:`
-
--- `editor:`
+::: nonincremental
+-   `title:`
+-   `author:`
+-   `format:`
+-   `editor:`
+:::
 :::
 :::
 
@@ -138,17 +154,19 @@ Minimal YAML
 
 Render early and often!
 
--- provide check points to build habit
+::: nonincremental
+-   provide check points to build habit
 
--- [Example Application Exercise](link%20to%20it)
+-   [Example Application Exercise](https://github.com/ElijahMeyer3/demo-ae)
+:::
 
 # Benefits
 
 ## From the student's perspective
 
--- Useful tool: Good habit to build for future coursework + career
+-   Useful tool: Good habit to build for future coursework + career
 
--- Proof of work: A project they can take with them
+-   Proof of work: A project they can take with them
 
 ## Project with Quarto
 
@@ -156,15 +174,15 @@ Render early and often!
 
 ## How we do it
 
-![](images/project1.png){width="700" height="600"}
+![](images/project1.png){width="700" height="500"}
 
 ## How we do it
 
-![](images/project2.png){width="700" height="600"}
+![](images/project2.png){width="700" height="500"}
 
 ## Project: Professional Document
 
-Rmarkdown:
+**R Markdown:**
 
 ```{r}
 #| eval: false
@@ -172,7 +190,11 @@ Rmarkdown:
 knitr::opts_chunk$set(echo = FALSE)  
 ```
 
-Quarto:
+. . .
+
+<br>
+
+**Quarto:** Easier to get started and attempts to "smooth" the edges of R Markdown
 
 ```{r}
 #| eval: false
@@ -180,38 +202,35 @@ Quarto:
 title: "Project Title" 
 execute:
   echo: false
-
 ```
-
-Quarto: easier to get started and attempts to "smooth" the edges of R-markdown
 
 ## From the instructor's perspective
 
 Efficiency
 
--- Reproducible lessons to adapt
+-   Reproducible lessons to adapt
 
--- Consistent formatting = easier grading
+-   Consistent formatting = easier grading
 
 ## Going Beyond
 
 Citations
 
-![](images/citation.png){fig-align="center"}
+![](images/citation.png){fig-align="center" width="1000"}
 
 ## In Summary
 
--- Start **minimal** and build up!
+-   Start **minimal** and build up!
 
--- Continuously practice
+-   Continuously practice
 
--- Reproducibility becomes not optional
+-   Reproducibility becomes not optional
 
--- Know that the investment pays off
+-   Know that the investment pays off
 
 # Questions
 
-## Motivation Example
+## Motivating Example
 
 ![Lack of Trust in Science [@fanelli2018]](images/pnas.png){fig-align="left" fig-alt="Crisis" width="730"}
 
