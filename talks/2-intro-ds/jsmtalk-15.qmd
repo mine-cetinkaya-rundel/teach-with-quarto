@@ -160,7 +160,7 @@ Render early and often!
 ::: nonincremental
 -   provide check points to build habit
 
-- [Example Application Exercise](https://github.com/ElijahMeyer3/demo-ae)
+-   [Example Application Exercise](https://github.com/ElijahMeyer3/demo-ae)
 :::
 
 # Benefits
