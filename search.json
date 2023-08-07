@@ -130,7 +130,7 @@
     "href": "talks/1-welcome/welcome.html#code",
     "title": "Welcome to Quarto",
     "section": "Code",
-    "text": "Code\nR code chunks executed with knitr or Python, Julia, or Observable code chunks executed with Jupyter.\n\n\n# R code goes here\n\n# Python code goes here"
+    "text": "Code\nR code chunks executed with knitr or Python, Julia, or Observable code chunks executed with Jupyter.\n# R code goes here\n\n\n# R code goes here\n\n# Python code goes here"
   },
   {
     "objectID": "talks/1-welcome/welcome.html#lets-see-quarto-in-action",
