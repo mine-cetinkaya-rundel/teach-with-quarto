@@ -46,7 +46,7 @@
     "href": "talks/2-intro-ds/index.html#speaker",
     "title": "Teaching Quarto in Introduction to Data Science Courses",
     "section": "Speaker",
-    "text": "Speaker\nElijah Meyer …"
+    "text": "Speaker\nElijah Meyer is currently a teaching postdoctoral associate at Duke University. Taught Quarto in introductory data science at Duke the last fall, spring, and summer sessions. His work focuses on curricula and course creation, as well as studying how to best support newer instructor’s use of active learning."
   },
   {
     "objectID": "talks/3-r-python/index.html",
@@ -95,7 +95,7 @@
     "href": "talks/1-welcome/welcome.html#a-bit-of-magic",
     "title": "Welcome to Quarto",
     "section": "A bit of magic",
-    "text": "A bit of magic\n\nbit.ly/twq-welcome"
+    "text": "A bit of magic\n\nbit.ly/teach-quarto"
   },
   {
     "objectID": "talks/1-welcome/welcome.html#quarto-1",
@@ -151,7 +151,7 @@
     "href": "talks/1-welcome/welcome.html#code",
     "title": "Welcome to Quarto",
     "section": "Code",
-    "text": "Code\n\n\nR code chunks executed with knitr 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANABBAEQAWQBBAE8AUQBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBJAHcAQQBnAEEARgBJAEEASQBBAEIAagBBAEcAOABBAFoAQQBCAGwAQQBDAEEAQQBaAHcAQgB2AEEARwBVAEEAYwB3AEEAZwBBAEcAZwBBAFoAUQBCAHkAQQBHAFUAQQBDAGcAQgBnAEEARwBBAEEAWQBBAEEAPQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602\n\nPython, Julia, and Observable chunks executed with jupyter 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANQBBAEQAawBBAE4AZwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBJAHcAQQBnAEEARgBBAEEAZQBRAEIAMABBAEcAZwBBAGIAdwBCAHUAQQBDAEEAQQBZAHcAQgB2AEEARwBRAEEAWgBRAEEAZwBBAEcAYwBBAGIAdwBCAGwAQQBIAE0AQQBJAEEAQgBvAEEARwBVAEEAYwBnAEIAbABBAEEAbwBBAFkAQQBCAGcAQQBHAEEAQQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602"
+    "text": "Code\n\nR code chunks executed with knitr: {r}\nPython, Julia, and Observable chunks executed with jupyter: {python}"
   },
   {
     "objectID": "talks/1-welcome/welcome.html#documents",
@@ -175,18 +175,18 @@
     "text": "Websites\n\n\n\nAdd Quarto file and call it index.qmd\nAdd _quarto.yml\nRestart project\nBuild Tab &gt; Render Website"
   },
   {
-    "objectID": "talks/1-welcome/welcome.html#journal-articles",
-    "href": "talks/1-welcome/welcome.html#journal-articles",
+    "objectID": "talks/1-welcome/welcome.html#publications",
+    "href": "talks/1-welcome/welcome.html#publications",
     "title": "Welcome to Quarto",
-    "section": "Journal articles",
-    "text": "Journal articles"
+    "section": "Publications",
+    "text": "Publications\n\nYou can already write reproducible journal articles with Quarto (like you could with the rticles and similar packages and R Markdown), and an ASA template is available!\nYou can now also write fully reproducible manuscripts with embedded computation and render to multiple formats!\n\n\n\n\n\n\n\nQuarto 1.4\n\n\nThe manuscript project type is available in Quarto 1.4. Pre-release now available, release coming soon!"
   },
   {
-    "objectID": "talks/1-welcome/welcome.html#soon-reproducible-manuscripts-with-embedded-computation",
-    "href": "talks/1-welcome/welcome.html#soon-reproducible-manuscripts-with-embedded-computation",
+    "objectID": "talks/1-welcome/welcome.html#manuscripts",
+    "href": "talks/1-welcome/welcome.html#manuscripts",
     "title": "Welcome to Quarto",
-    "section": "Soon: Reproducible manuscripts with embedded computation",
-    "text": "Soon: Reproducible manuscripts with embedded computation"
+    "section": "Manuscripts",
+    "text": "Manuscripts"
   },
   {
     "objectID": "talks/1-welcome/welcome.html#quarto-cli",
@@ -214,7 +214,7 @@
     "href": "talks/1-welcome/welcome.html#thank-you",
     "title": "Welcome to Quarto",
     "section": "Thank you!",
-    "text": "Thank you!\n🐘 https://fosstodon.org/@minecr\n✉️ mailto:mc301@duke.edu"
+    "text": "Thank you!\n🔗 bit.ly/teach-quarto\n🐘 fosstodon.org/@minecr\n✉️ mc301@duke.edu\n\n\n🔗 bit.ly/teach-quarto"
   },
   {
     "objectID": "talks/5-teaching-materials/index.html",
@@ -242,7 +242,133 @@
     "href": "talks/5-teaching-materials/index.html#speaker",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "Speaker",
-    "text": "Speaker\nMaria Tackett …"
+    "text": "Speaker\n\n\n\n\n\nMaria Tackett is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. Her research focuses on understanding factors that impact students’ sense of belonging in introductory math and statistics courses with the aim to identify pedagogies that foster community and a supportive learning environment. She’s an active member of the statistics education community and its effort to make statistics more engaging and accessible for all students."
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#outline",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#outline",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Outline",
+    "text": "Outline\n\nWhy use Quarto to make teaching materials?\nWhat teaching materials can I create using Quarto?\nHow do I get started?"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#benefits-for-instructor",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#benefits-for-instructor",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Benefits for instructor",
+    "text": "Benefits for instructor\n\nReproducible course materials that are easier to update\nIntegrate narrative, executable R code, images, and interactive elements\nEasily share course materials with students and more broadly\nRegularly use the same technology as your students"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#benefits-for-students",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#benefits-for-students",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Benefits for students",
+    "text": "Benefits for students\n\nNavigation menu on all documents to easily to find content\nSearch capabilities on website to more easily find content by topic\nOption to export PDF of slides\nRead course materials on multiple devices"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#teaching-materials-in-quarto",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#teaching-materials-in-quarto",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Teaching materials in Quarto",
+    "text": "Teaching materials in Quarto\n\n\nCourse websites\n\n\n\n\n\nSlides"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#teaching-materials-in-quarto-1",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Teaching materials in Quarto",
+    "text": "Teaching materials in Quarto\n\n\nLong-form notes\n\n\n\n\n\nAssignment instructions"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#slide-menu",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#slide-menu",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Slide menu",
+    "text": "Slide menu\n\nSlide navigation\nPrint to PDF\nSpeaker view\nAnnotation\nChalkboard"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#slide-with-code-output",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#slide-with-code-output",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Slide with code + output",
+    "text": "Slide with code + output\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SciPy lecture by Colin Rundel"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#slide-with-mathematical-notation",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#slide-with-mathematical-notation",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Slide with mathematical notation",
+    "text": "Slide with mathematical notation\n\n\nPublished slide\n\n\nSource code\n\n\n\n\n\nSource: SLR: Mathematical models for inference by Maria Tackett"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#navigating-course-website",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#navigating-course-website",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Navigating course website",
+    "text": "Navigating course website\n\n\n\nIntroduction to Data Science taught by Mine Çetinkaya-Rundel"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#example-website-file-structure",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#example-website-file-structure",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Example website file structure",
+    "text": "Example website file structure"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#interactive-documents-with-webr",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#interactive-documents-with-webr",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Interactive documents with webR",
+    "text": "Interactive documents with webR\n\n“Run R code in the browser without the need for an R server to execute the code”\n\n\n\n\nwebR demo: maria.quarto.pub/webr-demo"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#webr-source-code",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#webr-source-code",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "webR source code",
+    "text": "webR source code\nYAML\n\n---\ntitle: \"webR document\"\nformat: html\nfilters:\n  - webr\nwebr:\n  packages: ['dplyr', 'ggplot2']\n  Cross-Origin-Opener-Policy: same-origin\n  Cross-Origin-Embedder-Policy: require-corp\n---\n\n\nExecutable code chunk\n\n{webr-r}\nmpg |&gt;\n  count(manufacturer, _____)"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#getting-started-slides-documents",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#getting-started-slides-documents",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Getting started: slides + documents",
+    "text": "Getting started: slides + documents\n\n\nBasic\nCustomized\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\n\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#getting-started-websites",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#getting-started-websites",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Getting started: websites",
+    "text": "Getting started: websites\n\nMake a website repo on GitHub\nClone the repo and start a new RStudio project\n\nRun the following code in the Terminal\nquarto create-project --type website\n\n\nYou will see the standard files for a new website in the Files pane. See Creating a Website on quarto.org for more information."
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#publishing-materials",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#publishing-materials",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Publishing materials",
+    "text": "Publishing materials\nRun the following code in the Terminal\nGitHub pages\nquarto publish gh-pages\nQuarto pub\nquarto publish quarto-pub\nNetlify\nquarto publish netlify\n\nSee Publishing Basics on quarto.org for more information and publishing options."
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#course-websites-created-with-quarto",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#course-websites-created-with-quarto",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Course websites created with Quarto",
+    "text": "Course websites created with Quarto\n\nIntroduction to Data Science, Elijah Meyer\n\n[website][GitHub repo]\n\n\nRegression Analysis, Maria Tackett\n\n[website][GitHub repo]\n\n\nAdvanced Data Visualization, Mine Çetinkaya-Rundel\n\n[website][GitHub repo]\n\n\nApplied Experimental Design and Regression Models, Allison Theobold\n\n[website][Github repo]"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#course-slides-created-with-quarto",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#course-slides-created-with-quarto",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Course slides created with Quarto",
+    "text": "Course slides created with Quarto\n\n\nStatistical Computing and Computation, Colin Rundel\n\n[website][GitHub repo]\n\n\n\nStatistical Learning with R, Kelly Bodwin\n\n[GitHub repo]"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#learn-more",
+    "href": "talks/5-teaching-materials/quarto-teaching-materials.html#learn-more",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Learn more!",
+    "text": "Learn more!\n\nOrganizing Teaching Materials by Maria Tackett & Mine Çetinkaya-Rundel\nReproducible documents, presentations, and websites with Quarto by Hunter Glanz, Emily Robinson & Allison Theobold\nHello Quarto: Share, Collaborate, Teach, Reimagine by Mine Çetinkaya-Rundel & Julia Lowndes\nquarto.org"
   },
   {
     "objectID": "talks/1-welcome/index.html",
