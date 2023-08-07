@@ -168,6 +168,13 @@
     "text": "Slides\n\n\n\nChange format: revealjs\nAdd section headings: First level headings Introduction and Analysis, under Analysis a second level heading called Modeling\nAdd columns to slides\nReveal code with echo: true\nteaching-tip: code-line-numbers\nChange output-location of figure"
   },
   {
+    "objectID": "talks/1-welcome/welcome.html#websites",
+    "href": "talks/1-welcome/welcome.html#websites",
+    "title": "Welcome to Quarto",
+    "section": "Websites",
+    "text": "Websites\n\n\n\nAdd Quarto file and call it index.qmd\nAdd _quarto.yml\nRestart project\nBuild Tab &gt; Render Website"
+  },
+  {
     "objectID": "talks/1-welcome/welcome.html#journal-articles",
     "href": "talks/1-welcome/welcome.html#journal-articles",
     "title": "Welcome to Quarto",
