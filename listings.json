@@ -2,11 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
-      "/talks/1-welcome/1-index.html",
-      "/talks/2-intro-ds/2-index.html",
-      "/talks/3-r-python/3-index.html",
-      "/talks/4-automation/4-index.html",
-      "/talks/5-teaching-materials/5-index.html"
+      "/talks/1-welcome/index.html",
+      "/talks/2-intro-ds/index.html",
+      "/talks/3-r-python/index.html",
+      "/talks/4-automation/index.html",
+      "/talks/5-teaching-materials/index.html"
     ]
   }
 ]

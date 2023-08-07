@@ -182,36 +182,36 @@
     "text": "References\n\n\n\n\n\n\nFanelli, Daniele. 2018. “Is Science Really Facing a Reproducibility Crisis, and Do We Need It To?” Proceedings of the National Academy of Sciences 115 (11): 2628–31. https://doi.org/10.1073/pnas.1708272114."
   },
   {
-    "objectID": "talks/3-r-python/3-index.html",
-    "href": "talks/3-r-python/3-index.html",
+    "objectID": "talks/3-r-python/index.html",
+    "href": "talks/3-r-python/index.html",
     "title": "Blending R and Python in Quarto documents",
     "section": "",
     "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
   },
   {
-    "objectID": "talks/3-r-python/3-index.html#abstract",
-    "href": "talks/3-r-python/3-index.html#abstract",
+    "objectID": "talks/3-r-python/index.html#abstract",
+    "href": "talks/3-r-python/index.html#abstract",
     "title": "Blending R and Python in Quarto documents",
     "section": "",
     "text": "Data science teams are increasingly “multilingual”, using more than one statistical computing tool for analyses and models. While many typesetting and notebook approaches support more than one language, Quarto is specifically designed for this flexibility. In particular, Quarto offers the ability to combine source code in both R and python into one single, reproducible document. These new capabilities have made it easier than ever to incorporate both languages simultaneously into statistics and data science courses. In this talk, I will give an overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom. I’ll also offer some tips and tricks - as well as some helper scripts - for managing these blended documents."
   },
   {
-    "objectID": "talks/3-r-python/3-index.html#slides",
-    "href": "talks/3-r-python/3-index.html#slides",
+    "objectID": "talks/3-r-python/index.html#slides",
+    "href": "talks/3-r-python/index.html#slides",
     "title": "Blending R and Python in Quarto documents",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "talks/3-r-python/3-index.html#links",
-    "href": "talks/3-r-python/3-index.html#links",
+    "objectID": "talks/3-r-python/index.html#links",
+    "href": "talks/3-r-python/index.html#links",
     "title": "Blending R and Python in Quarto documents",
     "section": "Links",
     "text": "Links\ntemplar package: https://www.github.com/r-for-educators/templar\nExample materials: https://github.com/Statistical-Learning-with-R"
   },
   {
-    "objectID": "talks/3-r-python/3-index.html#speaker",
-    "href": "talks/3-r-python/3-index.html#speaker",
+    "objectID": "talks/3-r-python/index.html#speaker",
+    "href": "talks/3-r-python/index.html#speaker",
     "title": "Blending R and Python in Quarto documents",
     "section": "Speaker",
     "text": "Speaker\n\n\n\n\n\nKelly Bodwin is an Associate Professor of Statistics and Data Science at Cal Poly, in San Luis Obispo, CA. Her research includes R package development, studies of statistical education, and applications in a variety of fields such as history, biology, and viticulture. While R will always be her first love, she is slowly learning to accept python into her life."
@@ -343,57 +343,57 @@
     "text": "Thank you!\n🐘 https://fosstodon.org/@minecr\n✉️ mailto:mc301@duke.edu"
   },
   {
-    "objectID": "talks/5-teaching-materials/5-index.html",
-    "href": "talks/5-teaching-materials/5-index.html",
+    "objectID": "talks/5-teaching-materials/index.html",
+    "href": "talks/5-teaching-materials/index.html",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "",
     "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
   },
   {
-    "objectID": "talks/5-teaching-materials/5-index.html#abstract",
-    "href": "talks/5-teaching-materials/5-index.html#abstract",
+    "objectID": "talks/5-teaching-materials/index.html#abstract",
+    "href": "talks/5-teaching-materials/index.html#abstract",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "",
     "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
   },
   {
-    "objectID": "talks/5-teaching-materials/5-index.html#slides",
-    "href": "talks/5-teaching-materials/5-index.html#slides",
+    "objectID": "talks/5-teaching-materials/index.html#slides",
+    "href": "talks/5-teaching-materials/index.html#slides",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "talks/5-teaching-materials/5-index.html#speaker",
-    "href": "talks/5-teaching-materials/5-index.html#speaker",
+    "objectID": "talks/5-teaching-materials/index.html#speaker",
+    "href": "talks/5-teaching-materials/index.html#speaker",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "Speaker",
     "text": "Speaker\nMaria Tackett …"
   },
   {
-    "objectID": "talks/1-welcome/1-index.html",
-    "href": "talks/1-welcome/1-index.html",
+    "objectID": "talks/1-welcome/index.html",
+    "href": "talks/1-welcome/index.html",
     "title": "Welcome to Quarto: From course notes to journal articles to books",
     "section": "",
     "text": "Quarto is a reproducible authoring system that unifies and extends the R Markdown ecosystem and enables you to weave together your code and prose to create documents, presentations, websites, books, and even journal articles. In this talk we will introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators."
   },
   {
-    "objectID": "talks/1-welcome/1-index.html#abstract",
-    "href": "talks/1-welcome/1-index.html#abstract",
+    "objectID": "talks/1-welcome/index.html#abstract",
+    "href": "talks/1-welcome/index.html#abstract",
     "title": "Welcome to Quarto: From course notes to journal articles to books",
     "section": "",
     "text": "Quarto is a reproducible authoring system that unifies and extends the R Markdown ecosystem and enables you to weave together your code and prose to create documents, presentations, websites, books, and even journal articles. In this talk we will introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators."
   },
   {
-    "objectID": "talks/1-welcome/1-index.html#slides",
-    "href": "talks/1-welcome/1-index.html#slides",
+    "objectID": "talks/1-welcome/index.html#slides",
+    "href": "talks/1-welcome/index.html#slides",
     "title": "Welcome to Quarto: From course notes to journal articles to books",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "talks/1-welcome/1-index.html#speaker",
-    "href": "talks/1-welcome/1-index.html#speaker",
+    "objectID": "talks/1-welcome/index.html#speaker",
+    "href": "talks/1-welcome/index.html#speaker",
     "title": "Welcome to Quarto: From course notes to journal articles to books",
     "section": "Speaker",
     "text": "Speaker\nMine Çetinkaya-Rundel …"
@@ -539,57 +539,57 @@
     "text": "Resources\nInstall the templar package:\n\nremotes::install_github(\"r-for-educators/templar\")\n\nCo-author: Ian Flores Siaca\nContribute at www.github.com/r-for-educators/templar\nExamples of course materials generated with templar:\nhttps://github.com/Statistical-Learning-with-R"
   },
   {
-    "objectID": "talks/4-automation/4-index.html",
-    "href": "talks/4-automation/4-index.html",
+    "objectID": "talks/4-automation/index.html",
+    "href": "talks/4-automation/index.html",
     "title": "Quarto and automation in teaching statistical computing",
     "section": "",
     "text": "In this talk we will discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses. These courses span the undergraduate and graduate curriculum and make use of both R and Python. The flexibility and power of the Quarto framework provide for the development of common tooling and workflows that can be adapted the specific needs of each course. We will provide concrete examples of how these tools are currently being used in these courses as well as discussing how they can be extended and adopted for new courses."
   },
   {
-    "objectID": "talks/4-automation/4-index.html#abstract",
-    "href": "talks/4-automation/4-index.html#abstract",
+    "objectID": "talks/4-automation/index.html#abstract",
+    "href": "talks/4-automation/index.html#abstract",
     "title": "Quarto and automation in teaching statistical computing",
     "section": "",
     "text": "In this talk we will discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses. These courses span the undergraduate and graduate curriculum and make use of both R and Python. The flexibility and power of the Quarto framework provide for the development of common tooling and workflows that can be adapted the specific needs of each course. We will provide concrete examples of how these tools are currently being used in these courses as well as discussing how they can be extended and adopted for new courses."
   },
   {
-    "objectID": "talks/4-automation/4-index.html#slides",
-    "href": "talks/4-automation/4-index.html#slides",
+    "objectID": "talks/4-automation/index.html#slides",
+    "href": "talks/4-automation/index.html#slides",
     "title": "Quarto and automation in teaching statistical computing",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "talks/4-automation/4-index.html#speaker",
-    "href": "talks/4-automation/4-index.html#speaker",
+    "objectID": "talks/4-automation/index.html#speaker",
+    "href": "talks/4-automation/index.html#speaker",
     "title": "Quarto and automation in teaching statistical computing",
     "section": "Speaker",
     "text": "Speaker\nColin Rundel is Associate Professor of the Practice at Duke University where he has been teaching since 2012. His work focuses on teaching statistical computing to both undergraduate and graduate students in both R and Python."
   },
   {
-    "objectID": "talks/2-intro-ds/2-index.html",
-    "href": "talks/2-intro-ds/2-index.html",
+    "objectID": "talks/2-intro-ds/index.html",
+    "href": "talks/2-intro-ds/index.html",
     "title": "Teaching Quarto in Introduction to Data Science Courses",
     "section": "",
     "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
   },
   {
-    "objectID": "talks/2-intro-ds/2-index.html#abstract",
-    "href": "talks/2-intro-ds/2-index.html#abstract",
+    "objectID": "talks/2-intro-ds/index.html#abstract",
+    "href": "talks/2-intro-ds/index.html#abstract",
     "title": "Teaching Quarto in Introduction to Data Science Courses",
     "section": "",
     "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
   },
   {
-    "objectID": "talks/2-intro-ds/2-index.html#slides",
-    "href": "talks/2-intro-ds/2-index.html#slides",
+    "objectID": "talks/2-intro-ds/index.html#slides",
+    "href": "talks/2-intro-ds/index.html#slides",
     "title": "Teaching Quarto in Introduction to Data Science Courses",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "talks/2-intro-ds/2-index.html#speaker",
-    "href": "talks/2-intro-ds/2-index.html#speaker",
+    "objectID": "talks/2-intro-ds/index.html#speaker",
+    "href": "talks/2-intro-ds/index.html#speaker",
     "title": "Teaching Quarto in Introduction to Data Science Courses",
     "section": "Speaker",
     "text": "Speaker\nElijah Meyer …"
