@@ -4,6 +4,7 @@ subtitle: From course notes to journal articles to books
 author: Mine Çetinkaya-Rundel
 institution: Duke University + Posit
 date: 2023-08-06
+footer: "[🔗 bit.ly/teach-quarto](https://bit.ly/teach-quarto)"
 title-slide-attributes:
   data-background-image: images/horst-teach-quarto.png
   data-background-size: stretch
@@ -30,7 +31,7 @@ execute:
 ## A bit of magic {background-image="images/horst_meteor.png" background-size="70%" background-repeat="no-repeat"}
 
 ::: {style="text-align: center; font-size: 2em;"}
-[bit.ly/twq-welcome](https://bit.ly/twq-welcome)
+[bit.ly/teach-quarto](https://bit.ly/teach-quarto)
 :::
 
 ## Quarto ... {.center auto-animate="true"}
@@ -125,15 +126,9 @@ Markdown, that can be edited with any editor, including RStudio's source or visu
 
 ## Code
 
-::: columns
-::: {.column width="50%"}
-R code chunks executed with **knitr** 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANABBAEQAWQBBAE8AUQBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBJAHcAQQBnAEEARgBJAEEASQBBAEIAagBBAEcAOABBAFoAQQBCAGwAQQBDAEEAQQBaAHcAQgB2AEEARwBVAEEAYwB3AEEAZwBBAEcAZwBBAFoAUQBCAHkAQQBHAFUAQQBDAGcAQgBnAEEARwBBAEEAWQBBAEEAPQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
-:::
+- R code chunks executed with **knitr**: `{r}`
 
-::: {.column width="50%"}
-Python, Julia, and Observable chunks executed with **jupyter** 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANQBBAEQAawBBAE4AZwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBJAHcAQQBnAEEARgBBAEEAZQBRAEIAMABBAEcAZwBBAGIAdwBCAHUAQQBDAEEAQQBZAHcAQgB2AEEARwBRAEEAWgBRAEEAZwBBAEcAYwBBAGIAdwBCAGwAQQBIAE0AQQBJAEEAQgBvAEEARwBVAEEAYwBnAEIAbABBAEEAbwBBAFkAQQBCAGcAQQBHAEEAQQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
-:::
-:::
+- Python, Julia, and Observable chunks executed with **jupyter**: `{python}`
 
 # Quarto + various document types
 
@@ -192,14 +187,23 @@ Python, Julia, and Observable chunks executed with **jupyter** 31b8e172-b470-440
 -   Build Tab \> Render Website
 :::
 
-## Journal articles
+## Publications
 
-. . .
+-   You can already write reproducible journal articles with Quarto (like you could with the **rticles** and similar packages and R Markdown), and an ASA template is available!
 
-## Soon: Reproducible `manuscripts` with embedded computation
+-   You can now also write fully reproducible `manuscripts` with embedded computation and render to multiple formats!
 
-. . .
+::: callout-warning
+## Quarto 1.4
 
+The `manuscript` project type is available in Quarto 1.4. Pre-release now available, release coming soon!
+:::
+
+## Manuscripts
+
+```{=html}
+<script src="https://fast.wistia.com/embed/medias/qh63wiwlxw.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.04% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_qh63wiwlxw seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/qh63wiwlxw/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+```
 # Parting remarks
 
 ## Quarto CLI...
@@ -224,6 +228,8 @@ the Quarto Blog: <https://quarto.org/docs/blog>
 ```
 ## Thank you! {background-image="images/thank-you.png"}
 
-🐘 [https://fosstodon.org/\@minecr](https://fosstodon.org/@minecr)
+🔗 [bit.ly/teach-quarto](https://bit.ly/teach-quarto)
 
-✉️ [mailto:mc301\@duke.edu](mc301@duke.edu)
+🐘 [fosstodon.org/\@minecr](https://fosstodon.org/@minecr)
+
+✉️ [mc301\@duke.edu](mailto:mc301@duke.edu)
