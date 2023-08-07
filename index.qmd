@@ -12,7 +12,11 @@ listing:
 Monday, Aug 7\
 2:00 PM - 3:50 PM\
 [Session \# 1797](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.viewEv&ev=2605) \
-Metro Toronto Convention Centre Room: CC-803B 
+Metro Toronto Convention Centre Room: CC-803B
+
+## Homepage
+
+All session materials can be viewed at <https://bit.ly/teach-quarto>. The GitHub repo that serves this site, <https://github.com/mine-cetinkaya-rundel/teach-with-quarto>, contains the source code for all presentations.
 
 ## Overview
 
