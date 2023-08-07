@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-author','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
@@ -99,7 +99,6 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -169,7 +168,7 @@ Metro Toronto Convention Centre Room: CC-803B&nbsp;</p>
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>Quarto is an open-source scientific and technical publishing system that unifies and extends the R Markdown ecosystem. This session features five speakers who have been using and teaching R Markdown over the last decade and who have adopted Quarto over the last two years. The speakers will share their experiences teaching Quarto to students in a wide range of courses that span from first-year introductory data science to Master’s level statistical computing courses. The talks will also touch on multiple languages and tools as these courses teach R and Python using both RStudio and Jupyter Notebooks. The educators will also discuss building course materials with Quarto, using Quarto for standardizing and organizing student work, as well as for academic authoring broadly. The session will conclude with a discussion on the importance of teaching reproducible computing early and often as well as tips for educators for adopting and teaching new tools and technologies in a constantly evolving landscape.</p>
 <p><strong>Session organizer:</strong> Mine Çetinkaya-Rundel - Duke University + Posit</p>
-<p><strong>Session chair:</strong> Allison Theobold - Cal Poly</p>
+<p><strong>Session chair:</strong> <a href="https://statistics.calpoly.edu/allison-theobold">Allison Theobold</a> - Cal Poly</p>
 </section>
 <section id="talks" class="level2">
 <h2 class="anchored" data-anchor-id="talks">Talks</h2>
@@ -180,7 +179,7 @@ Metro Toronto Convention Centre Room: CC-803B&nbsp;</p>
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1691185904080" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1691404508633" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
 <a href="./talks/1-welcome/1-index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -188,8 +187,8 @@ Metro Toronto Convention Centre Room: CC-803B&nbsp;</p>
 <h5 class="no-anchor card-title listing-title">
 Welcome to Quarto: From course notes to journal articles to books
 </h5>
-<div class="card-text listing-description">
-Introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the…
+<div class="card-subtitle listing-subtitle">
+2:05 - 2:25
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -200,16 +199,18 @@ Mine Çetinkaya-Rundel
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1691288499075" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1691404332704" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
 <a href="./talks/2-intro-ds/2-index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img src="./talks/2-intro-ds/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Teaching Quarto in Introduction to Data Science Courses
 </h5>
-<div class="card-text listing-description">
-Share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University.
+<div class="card-subtitle listing-subtitle">
+2:25 - 2:45
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -220,16 +221,18 @@ Elijah Meyer
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1691403659346" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1691403817176" data-listing-reading-time-sort="1" data-listing-word-count-sort="198">
 <a href="./talks/3-r-python/3-index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="talks/3-r-python/images/headshot_glasses_2.jpg" alt="A photo of Kelly" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./talks/3-r-python/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Blending R and Python in Quarto documents
 </h5>
-<div class="card-text listing-description">
-Overview of the advantages and drawbacks of using Quarto for “bilingual” materials in the data science classroom as well as tips and tricks for managing these blended…
+<div class="card-subtitle listing-subtitle">
+2:45 - 3:05
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -250,8 +253,8 @@ Kelly Bodwin
 <h5 class="no-anchor card-title listing-title">
 Quarto and automation in teaching statistical computing
 </h5>
-<div class="card-text listing-description">
-Discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses spanning the undergraduate and graduate…
+<div class="card-subtitle listing-subtitle">
+3:05 - 3:25
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -262,16 +265,18 @@ Colin Rundel
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1691382487720" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1691404231845" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
 <a href="./talks/5-teaching-materials/5-index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img src="./talks/5-teaching-materials/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Using Quarto for Making and Organizing Teaching Materials
 </h5>
-<div class="card-text listing-description">
-Demo how to use Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching…
+<div class="card-subtitle listing-subtitle">
+3:25 - 3:45
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
