@@ -28,12 +28,6 @@ execute:
 
 ![Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.](images/horst_quarto_schematic.png){fig-alt="A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto." fig-align="center"}
 
-## A bit of magic {background-image="images/horst_meteor.png" background-size="70%" background-repeat="no-repeat"}
-
-::: {style="text-align: center; font-size: 2em;"}
-[bit.ly/teach-quarto](https://bit.ly/teach-quarto)
-:::
-
 ## Quarto ... {.center auto-animate="true"}
 
 **unifies** + **extends** the R Markdown ecosystem
@@ -126,9 +120,9 @@ Markdown, that can be edited with any editor, including RStudio's source or visu
 
 ## Code
 
-- R code chunks executed with **knitr**: `{r}`
+-   R code chunks executed with **knitr**: `{r}`
 
-- Python, Julia, and Observable chunks executed with **jupyter**: `{python}`
+-   Python, Julia, and Observable chunks executed with **jupyter**: `{python}`
 
 # Quarto + various document types
 
@@ -216,16 +210,14 @@ orchestrates each step of rendering
 
 [https://quarto.org](https://quarto.org/)
 
-```{=html}
-<iframe src="https://quarto.org/" width="100%" height="600" title="Quarto Website"></iframe>
-```
+![](images/quarto-org.png){fig-alt="Screenshot of quarto.org" fig-align="center" width="1000"}
+
 ## Follow up with...
 
 the Quarto Blog: <https://quarto.org/docs/blog>
 
-```{=html}
-<iframe src="https://quarto.org/docs/blog/" width="100%" height="600" title="Quarto 1.3 Pre-release notes"></iframe>
-```
+![](images/quarto-blog.png){fig-alt="Screenshot of Quarto Blog" fig-align="center" width="1000"}
+
 ## Thank you! {background-image="images/thank-you.png"}
 
 🔗 [bit.ly/teach-quarto](https://bit.ly/teach-quarto)
