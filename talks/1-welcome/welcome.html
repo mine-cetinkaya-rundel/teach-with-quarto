@@ -8,9 +8,11 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.274">
+  <meta name="generator" content="quarto-1.4.298">
 
-  <title>Welcome to Quarto: From course notes to journal articles to books</title>
+  <meta name="author" content="Mine Çetinkaya-Rundel">
+  <meta name="dcterms.date" content="2023-08-06">
+  <title>Welcome to Quarto</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -324,31 +326,107 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Welcome to Quarto: From course notes to journal articles to books</h1>
+<section id="title-slide" data-background-image="images/horst-teach-quarto.png" data-background-opacity="0.8" data-background-size="stretch" class="quarto-title-block center">
+  <h1 class="title">Welcome to Quarto</h1>
+  <p class="subtitle">From course notes to journal articles to books</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Mine Çetinkaya-Rundel 
+</div>
+</div>
 </div>
 
+  <p class="date">2023-08-06</p>
 </section>
 <section>
-<section id="section-1" class="title-slide slide level1 center">
-<h1>Section 1</h1>
+<section id="what-is-quarto" class="title-slide slide level1 center">
+<h1>What is Quarto?</h1>
 
 </section>
-<section id="slide-1" class="slide level2">
-<h2>Slide 1</h2>
+<section id="quarto" class="slide level2">
+<h2>Quarto …</h2>
+<ul>
+<li>is a new, open-source, scientific, and technical publishing system</li>
+<li>aims to make the process of creating and collaborating dramatically better</li>
+</ul>
+
+<img data-src="images/horst_quarto_schematic.png" alt="A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto." class="r-stretch quarto-figure-center"><p class="caption">Artwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.</p></section>
+<section id="a-bit-of-magic" class="slide level2" data-background-image="images/horst_meteor.png" data-background-size="70%" data-background-repeat="no-repeat">
+<h2>A bit of magic</h2>
+<div style="text-align: center; font-size: 2em;">
+<p><a href="https://bit.ly/twq-welcome">bit.ly/twq-welcome</a></p>
+</div>
 </section>
-<section id="slide-2" class="slide level2">
-<h2>Slide 2</h2>
+<section id="quarto-1" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Quarto …</h2>
+<p><strong>unifies</strong> + <strong>extends</strong> the R Markdown ecosystem</p>
+</section>
+<section id="quarto-2" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Quarto …</h2>
+<p><strong>unifies</strong> + <strong>extends</strong> the R Markdown ecosystem</p>
+<p><br></p>
+<p><strong>unifies</strong> for people who love R Markdown</p>
+</section>
+<section id="quarto-3" class="slide level2 center" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Quarto …</h2>
+<p><strong>unifies</strong> + <strong>extends</strong> the R Markdown ecosystem</p>
+<p><br></p>
+<p><strong>unifies</strong> for people who love R Markdown</p>
+<p><strong>extends</strong> for people who don’t know R Markdown</p>
+</section>
+<section id="quarto-unifies-extends-r-markdown" class="slide level2">
+<h2>Quarto unifies + extends R Markdown</h2>
+<div>
+<ul>
+<li class="fragment">Consistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.</li>
+<li class="fragment">More accessible defaults as well as better support for accessibility</li>
+<li class="fragment">Guardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.</li>
+<li class="fragment">Support for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks.</li>
+</ul>
+</div>
+</section>
+<section id="quarto-in-a-nutshell" class="slide level2">
+<h2>Quarto, in a nutshell</h2>
 </section></section>
 <section>
-<section id="section-2" class="title-slide slide level1 center">
-<h1>Section 2</h1>
+<section id="demo" class="title-slide slide level1 center">
+<h1>Demo</h1>
 
 </section>
-<section id="slide-3" class="slide level2">
-<h2>Slide 3</h2>
+<section id="lets-see-quarto-in-action" class="slide level2 center">
+<h2>Let’s see Quarto in action</h2>
+<p><a href="https://github.com/mine-cetinkaya-rundel/quarto-harvard-ccb" class="uri">https://github.com/mine-cetinkaya-rundel/quarto-harvard-ccb</a></p>
+</section></section>
+<section>
+<section id="parting-remarks" class="title-slide slide level1 center">
+<h1>Parting remarks</h1>
+
+</section>
+<section id="quarto-cli" class="slide level2">
+<h2>Quarto CLI…</h2>
+<p>orchestrates each step of rendering</p>
+
+<img data-src="images/horst_qmd_render_schema.png" alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document." class="r-stretch quarto-figure-center"><p class="caption">Artwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.</p></section>
+<section id="learning-more" class="slide level2">
+<h2>Learning more</h2>
+<p><a href="https://quarto.org/">https://quarto.org</a></p>
+<iframe src="https://quarto.org/" width="100%" height="600" title="Quarto Website"></iframe>
+</section>
+<section id="look-forward-to" class="slide level2">
+<h2>Look forward to</h2>
+<p>Quarto 1.3! <a href="https://quarto.org/docs/prerelease/1.3">https://quarto.org/docs/prerelease/1.3/</a></p>
+<iframe src="https://quarto.org/docs/prerelease/1.3/index.html" width="100%" height="600" title="Quarto 1.3 Pre-release notes"></iframe>
+</section>
+<section id="follow-up-with" class="slide level2">
+<h2>Follow up with…</h2>
+<p>the Quarto Blog: <a href="https://quarto.org/docs/blog" class="uri">https://quarto.org/docs/blog</a></p>
+<iframe src="https://quarto.org/docs/blog/" width="100%" height="600" title="Quarto 1.3 Pre-release notes"></iframe>
+</section>
+<section id="thank-you" class="slide level2" data-background-image="images/thank-you.png">
+<h2>Thank you!</h2>
+<p>🐘 <a href="https://fosstodon.org/@minecr">https://fosstodon.org/@minecr</a></p>
 
 <div class="footer footer-default">
 
@@ -364,6 +442,8 @@
   <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
+  <script src="../../site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -385,6 +465,7 @@
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'multiplex': {"secret":null,"id":"772923789663a5e4","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -510,7 +591,7 @@
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -558,7 +639,7 @@
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
-          RevealNotes,
+          
           RevealSearch,
           RevealZoom
         ]

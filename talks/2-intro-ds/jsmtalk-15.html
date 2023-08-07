@@ -8,10 +8,10 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.274">
+  <meta name="generator" content="quarto-1.4.298">
 
   <meta name="author" content="Dr.&nbsp;Elijah Meyer">
-  <meta name="dcterms.date" content="2023-08-05">
+  <meta name="dcterms.date" content="2023-08-06">
   <title>Teaching  in Introductory Data Science</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -410,7 +410,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="images/quarto_logo.png" data-background-position="62% 18%" data-background-size="31%" class="quarto-title-block center">
+<section id="title-slide" data-background-image="images/lines.png, images/quarto_logo.png" data-background-position="left, 62% 18%" data-background-size="25% , 31%" class="quarto-title-block center">
   <h1 class="title">Teaching <br> in Introductory Data Science</h1>
 
 <div class="quarto-title-authors">
@@ -424,7 +424,7 @@ Dr.&nbsp;Elijah Meyer
     </div>
 </div>
 
-  <p class="date">2023-08-05</p>
+  <p class="date">2023-08-06</p>
 </section>
 <section id="outline" class="slide level2">
 <h2>Outline</h2>
@@ -437,12 +437,14 @@ Dr.&nbsp;Elijah Meyer
 </section>
 <section id="how-application-exercises" class="slide level2">
 <h2>How: Application Exercises</h2>
-<p><img data-src="images/ae-demo.gif" width="800" height="450"></p>
-</section>
+
+<img data-src="images/ae-demo.gif" width="710" class="r-stretch"></section>
 <section id="when-first-teaching" class="slide level2">
 <h2>When First Teaching</h2>
-<p>– Stick to “what’s familiar”</p>
-<p>– Stick to “basics”</p>
+<ul>
+<li class="fragment"><p>Stick to “what’s familiar”</p></li>
+<li class="fragment"><p>Stick to “basics”</p></li>
+</ul>
 </section>
 <section id="visual-vs-source-tab" class="slide level2">
 <h2>Visual vs Source Tab</h2>
@@ -452,7 +454,7 @@ Dr.&nbsp;Elijah Meyer
 <div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-s" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/source.png" data-ref-parent="fig-R2"></p>
+<p><img data-src="images/source.png" data-ref-parent="fig-R2" width="1000"></p>
 <figcaption>(a)</figcaption>
 </figure>
 </div>
@@ -460,7 +462,7 @@ Dr.&nbsp;Elijah Meyer
 <div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-v" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/visual.png" data-ref-parent="fig-R2"></p>
+<p><img data-src="images/visual.png" data-ref-parent="fig-R2" width="1000"></p>
 <figcaption>(b)</figcaption>
 </figure>
 </div>
@@ -473,7 +475,7 @@ Dr.&nbsp;Elijah Meyer
 <section id="quarto-layout" class="slide level2">
 <h2>Quarto Layout</h2>
 
-<img data-src="images/quarto2.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="images/quarto2.png" width="1000" class="r-stretch quarto-figure-center"></section>
 <section id="quarto-as-a-teaching-tool" class="slide level2">
 <h2>Quarto as a Teaching Tool</h2>
 <p>Once students have the layout…Lean into what Quarto has to offer</p>
@@ -484,7 +486,7 @@ Dr.&nbsp;Elijah Meyer
 </section>
 <section id="informative-syntax-and-completion" class="slide level2">
 <h2>Informative Syntax and Completion</h2>
-<p><img data-src="images/figure-set.gif" width="1000" height="600"></p>
+<p><img data-src="images/figure-set.gif" data-wheidth="1000" height="300"></p>
 </section>
 <section id="informative-errors-and-common-mistakes" class="slide level2">
 <h2>Informative Errors and Common Mistakes</h2>
@@ -492,36 +494,32 @@ Dr.&nbsp;Elijah Meyer
 </section>
 <section id="missing-syntax" class="slide level2">
 <h2>Missing Syntax</h2>
-
-<img data-src="images/commonmistake1.png" class="r-stretch quarto-figure-center"></section>
-<section id="missing-syntax-1" class="slide level2">
-<h2>Missing Syntax</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/commonmistake1.png"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/commonanswer1.png" width="1300" height="250"></p>
-</figure>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="in">#| label: plot1</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="in">#| warning false</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="fragment">
+<p><br></p>
+<p>In the <strong>Background Jobs</strong> pane:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">ERROR:</span> YAMLException: can not read a block mapping entry<span class="kw">;</span> <span class="ex">a</span> multiline key may not be an implicit key <span class="er">(</span><span class="ex">Untitled.qmd,</span> 7:17<span class="kw">)</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="ex">6:</span> <span class="co">#| label: plot1</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="ex">7:</span> <span class="co">#| warning false</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a>                  <span class="ex">~</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="ex">8:</span> <span class="kw">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="indentation-error" class="slide level2">
 <h2>Indentation Error</h2>
-
-<img data-src="images/commonmistake2.png" class="r-stretch quarto-figure-center"></section>
-<section id="indentation-error-1" class="slide level2">
-<h2>Indentation Error</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/commonmistake2.png"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/commonanswer2.png" width="1300" height="250"></p>
-</figure>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Demo Document"</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="at">  </span><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Student 1"</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="fu">editor</span><span class="kw">:</span><span class="at"> visual</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="fragment">
+<p><br></p>
+<p>In the <strong>Background Jobs</strong> pane:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="ex">ERROR:</span> YAMLError: bad indentation of a mapping entry at line 3, column 3:</span>
+<span id="cb4-2"><a href="#cb4-2"></a>      <span class="ex">author:</span> <span class="st">"Student 1"</span></span>
+<span id="cb4-3"><a href="#cb4-3"></a>      <span class="ex">^</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section>
@@ -532,10 +530,12 @@ Dr.&nbsp;Elijah Meyer
 <section id="in-class-activity" class="slide level2">
 <h2>In-class activity</h2>
 <p>Use well scaffolded Quarto documents</p>
-<p>– provide the code early</p>
-<p>– provide documentation</p>
-<p>– fill in the blank code</p>
-<p>– provide code with errors</p>
+<ul>
+<li class="fragment"><p>provide the code early</p></li>
+<li class="fragment"><p>provide documentation</p></li>
+<li class="fragment"><p>fill in the blank code</p></li>
+<li class="fragment"><p>provide code with errors</p></li>
+</ul>
 </section>
 <section id="suggestions-in-class-activity" class="slide level2">
 <h2>Suggestions: In-class activity</h2>
@@ -549,25 +549,37 @@ text-align: left;
 <div class="columns">
 <div class="column" style="width:50%;">
 <p>Minimal chunk options</p>
-<p>– <code>label:</code></p>
-<p>– <code>warning:</code></p>
-<p>– <code>message:</code></p>
-<p>– <code>echo:</code></p>
-<p>– figure options</p>
+<div>
+<ul>
+<li><code>label:</code></li>
+<li><code>warning:</code></li>
+<li><code>message:</code></li>
+<li><code>echo:</code></li>
+<li>figure options</li>
+</ul>
+</div>
 </div><div class="column" style="width:50%;">
 <p>Minimal YAML</p>
-<p>– <code>title:</code></p>
-<p>– <code>author:</code></p>
-<p>– <code>format:</code></p>
-<p>– <code>editor:</code></p>
+<div>
+<ul>
+<li><code>title:</code></li>
+<li><code>author:</code></li>
+<li><code>format:</code></li>
+<li><code>editor:</code></li>
+</ul>
+</div>
 </div>
 </div>
 </section>
 <section id="in-class-activity-1" class="slide level2">
 <h2>In-class activity</h2>
 <p>Render early and often!</p>
-<p>– provide check points to build habit</p>
-<p>– <a href="link to it">Example Application Exercise</a></p>
+<div>
+<ul>
+<li><p>provide check points to build habit</p></li>
+<li><p><a href="https://github.com/ElijahMeyer3/demo-ae">Example Application Exercise</a></p></li>
+</ul>
+</div>
 </section></section>
 <section>
 <section id="benefits" class="title-slide slide level1 center">
@@ -576,8 +588,10 @@ text-align: left;
 </section>
 <section id="from-the-students-perspective" class="slide level2">
 <h2>From the student’s perspective</h2>
-<p>– Useful tool: Good habit to build for future coursework + career</p>
-<p>– Proof of work: A project they can take with them</p>
+<ul>
+<li class="fragment"><p>Useful tool: Good habit to build for future coursework + career</p></li>
+<li class="fragment"><p>Proof of work: A project they can take with them</p></li>
+</ul>
 </section>
 <section id="project-with-quarto" class="slide level2">
 <h2>Project with Quarto</h2>
@@ -585,51 +599,57 @@ text-align: left;
 </section>
 <section id="how-we-do-it" class="slide level2">
 <h2>How we do it</h2>
-<p><img data-src="images/project1.png" width="700" height="600"></p>
+<p><img data-src="images/project1.png" width="700" height="500"></p>
 </section>
 <section id="how-we-do-it-1" class="slide level2">
 <h2>How we do it</h2>
-<p><img data-src="images/project2.png" width="700" height="600"></p>
+<p><img data-src="images/project2.png" width="700" height="500"></p>
 </section>
 <section id="project-professional-document" class="slide level2">
 <h2>Project: Professional Document</h2>
-<p>Rmarkdown:</p>
+<p><strong>R Markdown:</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">echo =</span> <span class="cn">FALSE</span>)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(<span class="at">echo =</span> <span class="cn">FALSE</span>)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Quarto:</p>
+<div class="fragment">
+<p><br></p>
+<p><strong>Quarto:</strong> Easier to get started and attempts to “smooth” the edges of R Markdown</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>title<span class="sc">:</span> <span class="st">"Project Title"</span> </span>
-<span id="cb2-2"><a href="#cb2-2"></a>execute<span class="sc">:</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a>  echo<span class="sc">:</span> false</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a>title<span class="sc">:</span> <span class="st">"Project Title"</span> </span>
+<span id="cb6-2"><a href="#cb6-2"></a>execute<span class="sc">:</span></span>
+<span id="cb6-3"><a href="#cb6-3"></a>  echo<span class="sc">:</span> false</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Quarto: easier to get started and attempts to “smooth” the edges of R-markdown</p>
+</div>
 </section>
 <section id="from-the-instructors-perspective" class="slide level2">
 <h2>From the instructor’s perspective</h2>
 <p>Efficiency</p>
-<p>– Reproducible lessons to adapt</p>
-<p>– Consistent formatting = easier grading</p>
+<ul>
+<li class="fragment"><p>Reproducible lessons to adapt</p></li>
+<li class="fragment"><p>Consistent formatting = easier grading</p></li>
+</ul>
 </section>
 <section id="going-beyond" class="slide level2">
 <h2>Going Beyond</h2>
 <p>Citations</p>
 
-<img data-src="images/citation.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="images/citation.png" width="1000" class="r-stretch quarto-figure-center"></section>
 <section id="in-summary" class="slide level2">
 <h2>In Summary</h2>
-<p>– Start <strong>minimal</strong> and build up!</p>
-<p>– Continuously practice</p>
-<p>– Reproducibility becomes not optional</p>
-<p>– Know that the investment pays off</p>
+<ul>
+<li class="fragment"><p>Start <strong>minimal</strong> and build up!</p></li>
+<li class="fragment"><p>Continuously practice</p></li>
+<li class="fragment"><p>Reproducibility becomes not optional</p></li>
+<li class="fragment"><p>Know that the investment pays off</p></li>
+</ul>
 </section></section>
 <section>
 <section id="questions" class="title-slide slide level1 center">
 <h1>Questions</h1>
 
 </section>
-<section id="motivation-example" class="slide level2">
-<h2>Motivation Example</h2>
+<section id="motivating-example" class="slide level2">
+<h2>Motivating Example</h2>
 
 <img data-src="images/pnas.png" alt="Crisis" width="730" class="r-stretch quarto-figure-left"><p class="caption">Lack of Trust in Science <span class="citation" data-cites="fanelli2018">(<a href="#/references" role="doc-biblioref" onclick="">Fanelli 2018</a>)</span></p></section>
 <section id="references" class="slide level2 smaller scrollable">

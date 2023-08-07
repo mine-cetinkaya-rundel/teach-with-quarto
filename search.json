@@ -60,28 +60,133 @@
     "href": "talks/4-automation/4-index.html#speaker",
     "title": "Quarto and automation in teaching statistical computing",
     "section": "Speaker",
-    "text": "Speaker\nColin Rundel …"
+    "text": "Speaker\nColin Rundel is Associate Professor of the Practice at Duke University where he has been teaching since 2012. His work focuses on teaching statistical computing to both undergraduate and graduate students in both R and Python."
   },
   {
-    "objectID": "talks/1-welcome/welcome.html#slide-1",
-    "href": "talks/1-welcome/welcome.html#slide-1",
-    "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "Slide 1",
-    "text": "Slide 1"
+    "objectID": "talks/1-welcome/welcome.html#quarto",
+    "href": "talks/1-welcome/welcome.html#quarto",
+    "title": "Welcome to Quarto",
+    "section": "Quarto …",
+    "text": "Quarto …\n\nis a new, open-source, scientific, and technical publishing system\naims to make the process of creating and collaborating dramatically better\n\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
   },
   {
-    "objectID": "talks/1-welcome/welcome.html#slide-2",
-    "href": "talks/1-welcome/welcome.html#slide-2",
-    "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "Slide 2",
-    "text": "Slide 2"
+    "objectID": "talks/1-welcome/welcome.html#a-bit-of-magic",
+    "href": "talks/1-welcome/welcome.html#a-bit-of-magic",
+    "title": "Welcome to Quarto",
+    "section": "A bit of magic",
+    "text": "A bit of magic\n\nbit.ly/twq-welcome"
   },
   {
-    "objectID": "talks/1-welcome/welcome.html#slide-3",
-    "href": "talks/1-welcome/welcome.html#slide-3",
-    "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "Slide 3",
-    "text": "Slide 3"
+    "objectID": "talks/1-welcome/welcome.html#quarto-1",
+    "href": "talks/1-welcome/welcome.html#quarto-1",
+    "title": "Welcome to Quarto",
+    "section": "Quarto …",
+    "text": "Quarto …\nunifies + extends the R Markdown ecosystem"
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#quarto-2",
+    "href": "talks/1-welcome/welcome.html#quarto-2",
+    "title": "Welcome to Quarto",
+    "section": "Quarto …",
+    "text": "Quarto …\nunifies + extends the R Markdown ecosystem\n\nunifies for people who love R Markdown"
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#quarto-3",
+    "href": "talks/1-welcome/welcome.html#quarto-3",
+    "title": "Welcome to Quarto",
+    "section": "Quarto …",
+    "text": "Quarto …\nunifies + extends the R Markdown ecosystem\n\nunifies for people who love R Markdown\nextends for people who don’t know R Markdown"
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#quarto-unifies-extends-r-markdown",
+    "href": "talks/1-welcome/welcome.html#quarto-unifies-extends-r-markdown",
+    "title": "Welcome to Quarto",
+    "section": "Quarto unifies + extends R Markdown",
+    "text": "Quarto unifies + extends R Markdown\n\n\nConsistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.\nMore accessible defaults as well as better support for accessibility\nGuardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.\nSupport for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks."
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#quarto-in-a-nutshell",
+    "href": "talks/1-welcome/welcome.html#quarto-in-a-nutshell",
+    "title": "Welcome to Quarto",
+    "section": "Quarto, in a nutshell",
+    "text": "Quarto, in a nutshell"
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#lets-see-quarto-in-action",
+    "href": "talks/1-welcome/welcome.html#lets-see-quarto-in-action",
+    "title": "Welcome to Quarto",
+    "section": "Let’s see Quarto in action",
+    "text": "Let’s see Quarto in action\nhttps://github.com/mine-cetinkaya-rundel/quarto-harvard-ccb"
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#quarto-cli",
+    "href": "talks/1-welcome/welcome.html#quarto-cli",
+    "title": "Welcome to Quarto",
+    "section": "Quarto CLI…",
+    "text": "Quarto CLI…\norchestrates each step of rendering\n\nArtwork from “Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#learning-more",
+    "href": "talks/1-welcome/welcome.html#learning-more",
+    "title": "Welcome to Quarto",
+    "section": "Learning more",
+    "text": "Learning more\nhttps://quarto.org"
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#look-forward-to",
+    "href": "talks/1-welcome/welcome.html#look-forward-to",
+    "title": "Welcome to Quarto",
+    "section": "Look forward to",
+    "text": "Look forward to\nQuarto 1.3! https://quarto.org/docs/prerelease/1.3/"
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#follow-up-with",
+    "href": "talks/1-welcome/welcome.html#follow-up-with",
+    "title": "Welcome to Quarto",
+    "section": "Follow up with…",
+    "text": "Follow up with…\nthe Quarto Blog: https://quarto.org/docs/blog"
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#thank-you",
+    "href": "talks/1-welcome/welcome.html#thank-you",
+    "title": "Welcome to Quarto",
+    "section": "Thank you!",
+    "text": "Thank you!\n🐘 https://fosstodon.org/@minecr"
+  },
+  {
+    "objectID": "talks/1-welcome/demo/penguins.html",
+    "href": "talks/1-welcome/demo/penguins.html",
+    "title": "Hello, Penguins!",
+    "section": "",
+    "text": "For this analysis we’ll use the penguins dataset from the palmerpenguins package.\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.2     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.1     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(ggthemes)\nlibrary(palmerpenguins)\nlibrary(gt)\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male…\n$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n\n\n\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = bill_length_mm, y = bill_depth_mm,\n    color = species\n  )\n) +\n  geom_point() +\n  geom_smooth() +\n  scale_color_colorblind() +\n  theme(legend.position = \"top\") +\n  labs(x = \"Bill length (mm)\", y = \"Bill depth (mm)\")\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n\n\nWarning: Removed 2 rows containing non-finite values (`stat_smooth()`).\n\n\nWarning: Removed 2 rows containing missing values (`geom_point()`).\n\n\n\n\n\n\n\n\n\npenguins |&gt;\n  slice_head(n = 10) |&gt;\n  select(species, island, bill_length_mm, bill_depth_mm) |&gt;\n  gt()\n\n\n\n\n  \n    \n    \n      species\n      island\n      bill_length_mm\n      bill_depth_mm\n    \n  \n  \n    Adelie\nTorgersen\n39.1\n18.7\n    Adelie\nTorgersen\n39.5\n17.4\n    Adelie\nTorgersen\n40.3\n18.0\n    Adelie\nTorgersen\nNA\nNA\n    Adelie\nTorgersen\n36.7\n19.3\n    Adelie\nTorgersen\n39.3\n20.6\n    Adelie\nTorgersen\n38.9\n17.8\n    Adelie\nTorgersen\n39.2\n19.6\n    Adelie\nTorgersen\n34.1\n18.1\n    Adelie\nTorgersen\n42.0\n20.2"
+  },
+  {
+    "objectID": "talks/1-welcome/demo/penguins.html#data",
+    "href": "talks/1-welcome/demo/penguins.html#data",
+    "title": "Hello, Penguins!",
+    "section": "",
+    "text": "For this analysis we’ll use the penguins dataset from the palmerpenguins package.\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.2     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.2     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.1     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(ggthemes)\nlibrary(palmerpenguins)\nlibrary(gt)\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male…\n$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…"
+  },
+  {
+    "objectID": "talks/1-welcome/demo/penguins.html#species",
+    "href": "talks/1-welcome/demo/penguins.html#species",
+    "title": "Hello, Penguins!",
+    "section": "",
+    "text": "ggplot(\n  penguins,\n  aes(\n    x = bill_length_mm, y = bill_depth_mm,\n    color = species\n  )\n) +\n  geom_point() +\n  geom_smooth() +\n  scale_color_colorblind() +\n  theme(legend.position = \"top\") +\n  labs(x = \"Bill length (mm)\", y = \"Bill depth (mm)\")\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n\n\nWarning: Removed 2 rows containing non-finite values (`stat_smooth()`).\n\n\nWarning: Removed 2 rows containing missing values (`geom_point()`)."
+  },
+  {
+    "objectID": "talks/1-welcome/demo/penguins.html#penguins",
+    "href": "talks/1-welcome/demo/penguins.html#penguins",
+    "title": "Hello, Penguins!",
+    "section": "",
+    "text": "penguins |&gt;\n  slice_head(n = 10) |&gt;\n  select(species, island, bill_length_mm, bill_depth_mm) |&gt;\n  gt()\n\n\n\n\n  \n    \n    \n      species\n      island\n      bill_length_mm\n      bill_depth_mm\n    \n  \n  \n    Adelie\nTorgersen\n39.1\n18.7\n    Adelie\nTorgersen\n39.5\n17.4\n    Adelie\nTorgersen\n40.3\n18.0\n    Adelie\nTorgersen\nNA\nNA\n    Adelie\nTorgersen\n36.7\n19.3\n    Adelie\nTorgersen\n39.3\n20.6\n    Adelie\nTorgersen\n38.9\n17.8\n    Adelie\nTorgersen\n39.2\n19.6\n    Adelie\nTorgersen\n34.1\n18.1\n    Adelie\nTorgersen\n42.0\n20.2"
+  },
+  {
+    "objectID": "talks/1-welcome/demo/penguins.html#modeling-results",
+    "href": "talks/1-welcome/demo/penguins.html#modeling-results",
+    "title": "Hello, Penguins!",
+    "section": "Modeling results",
+    "text": "Modeling results\nSome modeling results go here…"
   },
   {
     "objectID": "talks/5-teaching-materials/5-index.html",
@@ -186,7 +291,7 @@
     "href": "talks/2-intro-ds/jsmtalk-15.html#when-first-teaching",
     "title": "Teaching  in Introductory Data Science",
     "section": "When First Teaching",
-    "text": "When First Teaching\n– Stick to “what’s familiar”\n– Stick to “basics”"
+    "text": "When First Teaching\n\nStick to “what’s familiar”\nStick to “basics”"
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#visual-vs-source-tab",
@@ -228,56 +333,42 @@
     "href": "talks/2-intro-ds/jsmtalk-15.html#missing-syntax",
     "title": "Teaching  in Introductory Data Science",
     "section": "Missing Syntax",
-    "text": "Missing Syntax"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#missing-syntax-1",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#missing-syntax-1",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Missing Syntax",
-    "text": "Missing Syntax"
+    "text": "Missing Syntax\n```{r}\n#| label: plot1\n#| warning false\n```\n\n\nIn the Background Jobs pane:\nERROR: YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key (Untitled.qmd, 7:17)\n6: #| label: plot1\n7: #| warning false\n                  ~\n8: ```"
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#indentation-error",
     "href": "talks/2-intro-ds/jsmtalk-15.html#indentation-error",
     "title": "Teaching  in Introductory Data Science",
     "section": "Indentation Error",
-    "text": "Indentation Error"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#indentation-error-1",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#indentation-error-1",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Indentation Error",
-    "text": "Indentation Error"
+    "text": "Indentation Error\ntitle: \"Demo Document\"\n  author: \"Student 1\"\nformat: html\neditor: visual\n\n\nIn the Background Jobs pane:\nERROR: YAMLError: bad indentation of a mapping entry at line 3, column 3:\n      author: \"Student 1\"\n      ^"
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity",
     "href": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity",
     "title": "Teaching  in Introductory Data Science",
     "section": "In-class activity",
-    "text": "In-class activity\nUse well scaffolded Quarto documents\n– provide the code early\n– provide documentation\n– fill in the blank code\n– provide code with errors"
+    "text": "In-class activity\nUse well scaffolded Quarto documents\n\nprovide the code early\nprovide documentation\nfill in the blank code\nprovide code with errors"
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#suggestions-in-class-activity",
     "href": "talks/2-intro-ds/jsmtalk-15.html#suggestions-in-class-activity",
     "title": "Teaching  in Introductory Data Science",
     "section": "Suggestions: In-class activity",
-    "text": "Suggestions: In-class activity\n\n\n\n\n\nMinimal chunk options\n– label:\n– warning:\n– message:\n– echo:\n– figure options\n\nMinimal YAML\n– title:\n– author:\n– format:\n– editor:"
+    "text": "Suggestions: In-class activity\n\n\n\n\n\nMinimal chunk options\n\n\nlabel:\nwarning:\nmessage:\necho:\nfigure options\n\n\n\nMinimal YAML\n\n\ntitle:\nauthor:\nformat:\neditor:"
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity-1",
     "href": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity-1",
     "title": "Teaching  in Introductory Data Science",
     "section": "In-class activity",
-    "text": "In-class activity\nRender early and often!\n– provide check points to build habit\n– Example Application Exercise"
+    "text": "In-class activity\nRender early and often!\n\n\nprovide check points to build habit\nExample Application Exercise"
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#from-the-students-perspective",
     "href": "talks/2-intro-ds/jsmtalk-15.html#from-the-students-perspective",
     "title": "Teaching  in Introductory Data Science",
     "section": "From the student’s perspective",
-    "text": "From the student’s perspective\n– Useful tool: Good habit to build for future coursework + career\n– Proof of work: A project they can take with them"
+    "text": "From the student’s perspective\n\nUseful tool: Good habit to build for future coursework + career\nProof of work: A project they can take with them"
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#project-with-quarto",
@@ -305,14 +396,14 @@
     "href": "talks/2-intro-ds/jsmtalk-15.html#project-professional-document",
     "title": "Teaching  in Introductory Data Science",
     "section": "Project: Professional Document",
-    "text": "Project: Professional Document\nRmarkdown:\n\nknitr::opts_chunk$set(echo = FALSE)  \n\nQuarto:\n\ntitle: \"Project Title\" \nexecute:\n  echo: false\n\nQuarto: easier to get started and attempts to “smooth” the edges of R-markdown"
+    "text": "Project: Professional Document\nR Markdown:\n\nknitr::opts_chunk$set(echo = FALSE)  \n\n\n\nQuarto: Easier to get started and attempts to “smooth” the edges of R Markdown\n\ntitle: \"Project Title\" \nexecute:\n  echo: false"
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#from-the-instructors-perspective",
     "href": "talks/2-intro-ds/jsmtalk-15.html#from-the-instructors-perspective",
     "title": "Teaching  in Introductory Data Science",
     "section": "From the instructor’s perspective",
-    "text": "From the instructor’s perspective\nEfficiency\n– Reproducible lessons to adapt\n– Consistent formatting = easier grading"
+    "text": "From the instructor’s perspective\nEfficiency\n\nReproducible lessons to adapt\nConsistent formatting = easier grading"
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#going-beyond",
@@ -326,14 +417,14 @@
     "href": "talks/2-intro-ds/jsmtalk-15.html#in-summary",
     "title": "Teaching  in Introductory Data Science",
     "section": "In Summary",
-    "text": "In Summary\n– Start minimal and build up!\n– Continuously practice\n– Reproducibility becomes not optional\n– Know that the investment pays off"
+    "text": "In Summary\n\nStart minimal and build up!\nContinuously practice\nReproducibility becomes not optional\nKnow that the investment pays off"
   },
   {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#motivation-example",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#motivation-example",
+    "objectID": "talks/2-intro-ds/jsmtalk-15.html#motivating-example",
+    "href": "talks/2-intro-ds/jsmtalk-15.html#motivating-example",
     "title": "Teaching  in Introductory Data Science",
-    "section": "Motivation Example",
-    "text": "Motivation Example\n\nLack of Trust in Science (Fanelli 2018)"
+    "section": "Motivating Example",
+    "text": "Motivating Example\n\nLack of Trust in Science (Fanelli 2018)"
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#references",
