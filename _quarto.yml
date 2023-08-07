@@ -1,8 +1,7 @@
 project:
   type: website
   resources:
-    - talks/2-intro-ds/images/lines.png
-    - images/2-intro-ds/quarto_logo.png
+    - talks/1-welcome/welcome.scss
 
 website:
   #logo: jsm-logo.png
@@ -14,7 +13,6 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
 
 editor: visual
