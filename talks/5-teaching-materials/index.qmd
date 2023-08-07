@@ -17,4 +17,6 @@ In addition to creating reproducible documents, Quarto offers a rich suite of op
 ```
 ## Speaker
 
-Maria Tackett ...
+![](maria-tackett-photo.png){fig-alt="A photo of Maria Tackett" fig-align="right" width="300"}
+
+Maria Tackett is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. Her research focuses on understanding factors that impact students' sense of belonging in introductory math and statistics courses with the aim to identify pedagogies that foster community and a supportive learning environment. She's an active member of the statistics education community and its effort to make statistics more engaging and accessible for all students.
