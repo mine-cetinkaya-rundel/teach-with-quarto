@@ -1,0 +1,366 @@
+---
+title: "Using Quarto for Making and Organizing Teaching Materials"
+subtitle: "Joint Statistical Meeting"
+author: "Maria Tackett"
+date: "August 7, 2023"
+date-format: long
+footer: "[🔗 bit.ly/teach-quarto](https://bit.ly/teach-quarto)"
+format: 
+  revealjs:
+    theme: slides.scss
+    slide-number: false
+    incremental: false 
+    chalkboard: 
+      theme: whiteboard
+    code-link: true
+execute: 
+  eval: true
+  echo: true
+editor: visual
+---
+
+## Outline
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(openintro) # for duke forest dataset
+library(scales)
+library(reticulate) # for python code
+options(reticulate.useImportHook=FALSE)
+
+ggplot2::theme_set(ggplot2::theme_minimal(base_size = 14))
+
+# set width of code output
+options(width = 65)
+
+# set figure parameters for knitr
+knitr::opts_chunk$set(
+  fig.width = 7,        # 7" width
+  fig.asp = 0.618,      # the golden ratio
+  fig.retina = 3,       # dpi multiplier for displaying HTML output on retina
+  fig.align = "center", # center align figures
+  dpi = 300             # higher dpi, sharper image
+)
+```
+
+-   Why use Quarto to make teaching materials?
+
+-   What teaching materials can I create using Quarto?
+
+-   How do I get started?
+
+# Why use Quarto to make teaching materials? {background-color="#993399"}
+
+## Benefits for instructor
+
+-   Reproducible course materials that are easier to update
+
+-   Integrate narrative, executable R code, images, and interactive elements
+
+-   Easily share course materials with students and more broadly
+
+-   Regularly use the same technology as your students
+
+## Benefits for students
+
+-   Navigation menu on all documents to easily to find content
+
+-   Search capabilities on website to more easily find content by topic
+
+-   Option to export PDF of slides
+
+-   Read course materials on multiple devices
+
+# What teaching materials can I create using Quarto? {background-color="#993399"}
+
+## Teaching materials in Quarto {.incremental}
+
+::: columns
+::: {.column .fragment width="45%" fragment-index="1"}
+**Course websites**
+
+![](img/sta210-website.png){width="2973"}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column .fragment width="45%" fragment-index="2"}
+**Slides**
+
+![](img/sta210-slide.png){width="2854"}
+:::
+:::
+
+## Teaching materials in Quarto {.incremental}
+
+::: columns
+::: {.column .fragment width="45%" fragment-index="1"}
+**Long-form notes**
+
+![](img/sta210-long-notes.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column .fragment width="45%" fragment-index="2"}
+**Assignment instructions**
+
+![](img/sta210-assignment.png)
+:::
+:::
+
+# Slides
+
+## Slide menu
+
+-   Slide navigation
+
+-   Print to PDF
+
+-   Speaker view
+
+-   Annotation
+
+-   Chalkboard
+
+## Slide with code + output
+
+::: columns
+::: {.column width="50%"}
+**Published slide**
+
+![](img/python-slide.png)
+:::
+
+::: {.column width="50%"}
+**Source code**
+
+![](img/python-slide-code.png)
+:::
+:::
+
+::: aside
+Source: [SciPy lecture](https://sta663-sp23.github.io/slides/Lec07.html#/title-slide) by Colin Rundel
+:::
+
+## Slide with mathematical notation
+
+::: columns
+::: {.column width="50%"}
+**Published slide**
+
+![](img/sta210-slide.png)
+:::
+
+::: {.column width="50%"}
+**Source code**
+
+![](img/sta210-slide-code.png)
+:::
+:::
+
+::: aside
+Source: [SLR: Mathematical models for inference](https://sta210-fa22.netlify.app/slides/07-slr-math-models#/mathematical-representation-of-the-model) by Maria Tackett
+:::
+
+# Websites
+
+## Navigating course website
+
+{{< video https://youtu.be/xqLFzuhOEUc width="700" height="400" >}}
+
+::: aside
+[Introduction to Data Science](https://sta199-f22-1.github.io/) taught by Mine Çetinkaya-Rundel
+:::
+
+## Example website file structure
+
+<center>![](img/file-structure-annoated.png){width="451"}</center>
+
+## Interactive documents with webR
+
+::: midi
+*"Run R code in the browser without the need for an R server to execute the code"*
+:::
+
+{{< video https://youtu.be/Kb_5GM3aUSk width="700" height="400" >}}
+
+::: aside
+webR demo: [maria.quarto.pub/webr-demo](https://maria.quarto.pub/webr-demo/)
+:::
+
+## webR source code
+
+**YAML**
+
+```{r}
+#| eval: false
+#| code-line-numbers: "2|3|4,5|6,7,8,9"
+---
+title: "webR document"
+format: html
+filters:
+  - webr
+webr:
+  packages: ['dplyr', 'ggplot2']
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+---
+```
+
+. . .
+
+**Executable code chunk**
+
+```{r}
+#| eval: false
+{webr-r}
+mpg |>
+  count(manufacturer, _____)
+```
+
+------------------------------------------------------------------------
+
+# 
+
+<center>
+
+::: callout-caution
+WebR is in active development. Learn more at [github.com/coatless/quarto-webr](https://github.com/coatless/quarto-webr)
+:::
+
+</center>
+
+# How do I get started? {background-color="#993399"}
+
+## Getting started: slides + documents
+
+::: panel-tabset
+## Basic
+
+```{r}
+#| eval: false
+---
+title: "Lecture 01"
+subtitle: "Statistics 101"
+author: "Instructor"
+date: "August 7, 2023"
+format: revealjs
+---
+```
+
+::: callout-tip
+Easily produce multiple types of documents by changing the `format` in the YAML.
+:::
+
+## Customized
+
+```{r}
+#| eval: false
+---
+title: "Lecture 01"
+subtitle: "Statistics 101"
+author: "Instructor"
+date: "August 7, 2023"
+date-format: long
+footer: "URL to course website"
+format: 
+  revealjs:
+    theme: slides.scss
+    transition: fade
+    slide-number: false
+    incremental: false 
+    chalkboard: 
+    code-link: true
+editor: visual
+execute: 
+  eval: true
+  echo: true
+---
+```
+:::
+
+## Getting started: websites
+
+-   Make a website repo on GitHub
+
+-   Clone the repo and start a new RStudio project
+
+-   Run the following code in the **Terminal**
+
+    ```         
+    quarto create-project --type website
+    ```
+
+You will see the standard files for a new website in the **Files** pane. See [Creating a Website](https://quarto.org/docs/websites/) on quarto.org for more information.
+
+## Publishing materials
+
+Run the following code in the **Terminal**
+
+**GitHub pages**
+
+```         
+quarto publish gh-pages
+```
+
+**Quarto pub**
+
+```         
+quarto publish quarto-pub
+```
+
+**Netlify**
+
+```         
+quarto publish netlify
+```
+
+<br>
+
+See [Publishing Basics](https://quarto.org/docs/publishing/) on quarto.org for more information and publishing options.
+
+## Course websites created with Quarto
+
+-   Introduction to Data Science, Elijah Meyer
+    -   \[[website](https://sta199-summer-1.github.io/)\]\[[GitHub repo](https://github.com/sta199-summer-1/sta199-summer-1.github.io)\]
+-   Regression Analysis, Maria Tackett
+    -   \[[website](https://sta210-fa22.netlify.app/)\]\[[GitHub repo](https://github.com/sta210-fa22/website)\]
+-   Advanced Data Visualization, Mine Çetinkaya-Rundel
+    -   \[[website](https://vizdata.org/)\]\[[GitHub repo](https://github.com/vizdata-s23/vizdata-s23)\]
+-   Applied Experimental Design and Regression Models, Allison Theobold
+    -   \[[website](https://atheobold.github.io/stat-313-website/)\]\[[Github repo](https://github.com/atheobold/stat-313-website)\]
+
+## Course slides created with Quarto
+
+-   Statistical Computing and Computation, Colin Rundel
+
+    -   \[[website](https://sta663-sp23.github.io/)\]\[[GitHub repo](https://github.com/sta663-sp23/sta663-sp23.github.io)\]
+
+-   Statistical Learning with R, Kelly Bodwin
+
+    -   \[[GitHub repo](https://github.com/Statistical-Learning-with-R)\]
+
+## Learn more!
+
+-   [*Organizing Teaching Materials*](https://rstudio-conf-2022.github.io/teach-ds/modules/d2-08-organizing.html) by Maria Tackett & Mine Çetinkaya-Rundel
+
+-   [*Reproducible documents, presentations, and websites with Quarto*](https://atheobold.github.io/uscots-quarto/) by Hunter Glanz, Emily Robinson & Allison Theobold
+
+-   [*Hello Quarto: Share, Collaborate, Teach, Reimagine*](https://www.youtube.com/watch?v=p7Hxu4coDl8) by Mine Çetinkaya-Rundel & Julia Lowndes
+
+-   [quarto.org](https://quarto.org)
+
+# Thank you! {background-color="#993399"}
+
+🔗 [bit.ly/teach-quarto](https://bit.ly/teach-quarto){style="color: white"}
+
+💻 [github.com/mine-cetinkaya-rundel/teach-with-quarto](https://github.com/mine-cetinkaya-rundel/teach-with-quarto){style="color: white"}
+
+📧 [maria.tackett\@duke.edu](mailto:maria.tackett@duke.edu){style="color: white"}
