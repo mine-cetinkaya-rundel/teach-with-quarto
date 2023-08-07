@@ -2,6 +2,7 @@
 title: Quarto and automation in teaching statistical computing
 author: Colin Rundel
 subtitle: "3:05 - 3:25"
+image: featured.png
 description: Discuss the use of GitHub actions and Quarto to provide automated feedback to students in a variety of statistical computing courses spanning the undergraduate and graduate curriculum and make use of both R and Python.
 ---
 
@@ -12,7 +13,7 @@ In this talk we will discuss the use of GitHub actions and Quarto to provide aut
 ## Slides
 
 ```{=html}
-<iframe class="slide-deck" src="https://rundel.github.io/Presentations/JSM2023/jsm2023.html#/title-slide" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="https://rundel.github.io/Presentations/JSM2023/jsm2023.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 ## Speaker
 
