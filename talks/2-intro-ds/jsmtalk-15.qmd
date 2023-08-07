@@ -1,7 +1,7 @@
 ---
 title: "Teaching <br> in Introductory Data Science"
 title-slide-attributes:
-  data-background-image: /images/quarto_logo.png
+  data-background-image: images/quarto_logo.png
   data-background-size: 31%
   data-background-position: 62% 18% 
 author: "Dr. Elijah Meyer"
@@ -80,7 +80,6 @@ In the **Background Jobs** pane:
 ``` bash
 Scanner error: while scanning a simple key at line 2, column 1 could not find
   expected : at line 3, column 1
-
 ```
 
 ## Indentation Error
