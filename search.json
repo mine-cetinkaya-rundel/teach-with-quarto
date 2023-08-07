@@ -63,6 +63,202 @@
     "text": "Speaker\nColin Rundel is Associate Professor of the Practice at Duke University where he has been teaching since 2012. His work focuses on teaching statistical computing to both undergraduate and graduate students in both R and Python."
   },
   {
+    "objectID": "talks/3-r-python/r-python.html#engine-setup",
+    "href": "talks/3-r-python/r-python.html#engine-setup",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Engine Setup",
+    "text": "Engine Setup\nIn R Markdown, to use python, you had to set everything up in R using the reticulate package:"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#section",
+    "href": "talks/3-r-python/r-python.html#section",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#section-1",
+    "href": "talks/3-r-python/r-python.html#section-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#section-2",
+    "href": "talks/3-r-python/r-python.html#section-2",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()\n\n## You may need the code below if you are working on your home Windows computer:\npy_run_string(\"import os as os\")\npy_run_string(\"os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/kbodwin/Anaconda3/Library/plugins/platforms'\")"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#section-3",
+    "href": "talks/3-r-python/r-python.html#section-3",
+    "title": "Bilingual Materials with Quarto",
+    "section": "",
+    "text": "library(reticulate)\npy_config()\nuse_python(\"/usr/local/bin/python3\")\npy_discover_config()\n\n## You may need the code below if you are working on your home Windows computer:\npy_run_string(\"import os as os\")\npy_run_string(\"os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/kbodwin/Anaconda3/Library/plugins/platforms'\")\n\nreticulate::py_install(\"pandas\")\nreticulate::py_install(\"scikit-learn\")\nreticulate::py_install(\"scipy\")"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#engine-setup-1",
+    "href": "talks/3-r-python/r-python.html#engine-setup-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Engine Setup",
+    "text": "Engine Setup\nNow, it’s all “under the hood”:\n---\ntitle: \"My document\"\njupyter: python3\n---"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#choose-your-install-in-global-options",
+    "href": "talks/3-r-python/r-python.html#choose-your-install-in-global-options",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Choose your install in Global Options",
+    "text": "Choose your install in Global Options"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#object-passing",
+    "href": "talks/3-r-python/r-python.html#object-passing",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Object passing",
+    "text": "Object passing\n\nAutomatic variables named py and r\nAccess python objects from R with py$\nAccess R objects from python with r."
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#object-passing-1",
+    "href": "talks/3-r-python/r-python.html#object-passing-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Object passing",
+    "text": "Object passing\n\n```{r}\n# read and filter data with R\nlibrary(palmerpenguins)\n\nadelie &lt;-\n  penguins %&gt;%\n  filter(species == \"Adelie\")\n```\n\n```{python}\n# model with python\nLR = LinearRegression()\n\nX = r.adelie[['bill_length_mm', 'bill_depth_mm']]\ny = r.adelie['mass_g']\n\nmod = LR.fit(X, y)\ncoef = mod.coef_\n```\n\n```{r}\n# summarize with R\npy$coef\n```"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#jupyter",
+    "href": "talks/3-r-python/r-python.html#jupyter",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Jupyter",
+    "text": "Jupyter\n\nDo you like Jupyter notebooks? Me too!\nDo you like Colab and/or Posit Cloud? Me too!\nDo you want to make your materials in Quarto but distribute to students in Jupyter form? Me too!\n\n\n\nCode\nquarto convert class_notes.qmd\nquarto convert class_notes.ipynb \n\nquarto render class_notes.ipynb"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#remaining-challenges-of-multilingual-docs",
+    "href": "talks/3-r-python/r-python.html#remaining-challenges-of-multilingual-docs",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Remaining challenges of multilingual docs",
+    "text": "Remaining challenges of multilingual docs\n\nMost undergrad programs don’t require multiple languages.\nDetecting python installs and packages isn’t perfect.\nR and python do not always have the same default implementations for models.\nWhat if what you want is not a multilingual document, but duplicated translated documents?"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#what-it-does",
+    "href": "talks/3-r-python/r-python.html#what-it-does",
+    "title": "Bilingual Materials with Quarto",
+    "section": "What it does",
+    "text": "What it does\nUpon rendering…\n\nIdentifies the R chunks from the python chunks\nIdentifies the labeled text sections for R or python.\nWrites new unilingual source files (qmds) in separate folders\n(Optionally) Renders those source files\n(Optionally) Converts the python one to ipynb."
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#first-chunk",
+    "href": "talks/3-r-python/r-python.html#first-chunk",
+    "title": "Bilingual Materials with Quarto",
+    "section": "First chunk",
+    "text": "First chunk\n```{r, version = \"none\"}\ntemplar::versions_quarto_multilingual(global_eval = FALSE,\n                                      to_jupyter = TRUE, \n                                      warn_edit = FALSE)\n```\n\n{version = \"none\"}: this code itself should not appear in generated files\nglobal_eval: do you want to\nto_jupyter: do you want to convert the python version?\nwarn_edit: put a warning at the top of generated files to not edit directly?"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#code-chunk-versions",
+    "href": "talks/3-r-python/r-python.html#code-chunk-versions",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Code chunk versions",
+    "text": "Code chunk versions\n\nThe first thing we need to do with any dataset is check for\nmissing data, and make sure the variables are the right type:\n\n```{r, version = \"R\"}\ndf %&gt;% summary()\n```\n\n```{python, version = \"python\"}\ndf.info()\n```"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#versioned-text",
+    "href": "talks/3-r-python/r-python.html#versioned-text",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Versioned text",
+    "text": "Versioned text\n\nThe next step is to clean the data.\n\n%%% version: R\n\nThe \"Color\" variable is being treated as a \"character\" variable,\ni.e., just an ordinary word.\n\nBut we know it should be *categorical*, aka a `factor` variable.\nLet's `mutate` the dataset to fix this:\n\n```{r, version = \"R\"}\ndf &lt;- df %&gt;%\n  mutate(\n    Color = factor(Color)\n  )\n\ndf %&gt;% summary()\n```\n\n%%%\n\n%%% version: python\n\nThe \"Color\" variable is being treated as an \"object\" variable,\ni.e., just an ordinary word.\n\nBut we know it should be *categorical*, aka a `category` variable.\nLet's *retype* the variable to fix this:\n\n%%%\n\n```{python, version = \"python\"}\nkelly_df['Gender'] = kelly_df['Gender'].astype('category')\nkelly_df.info()\n```"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#why-its-useful",
+    "href": "talks/3-r-python/r-python.html#why-its-useful",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Why it’s useful",
+    "text": "Why it’s useful\n\nKeep the content creation all in one place - more reproducible!\nElements of the document can be shared - e.g. data descriptions, question prompts, css chunks\nGive you source files to disseminate to students, not just rendered files.\n(Also lets you do student and solution version, or Exam A and Exam B, etc.)"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#lua-translation",
+    "href": "talks/3-r-python/r-python.html#lua-translation",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Lua translation",
+    "text": "Lua translation\n\nParse the source file text more elegantly\nMatch syntax to Quarto’s\n(::: instead of %%%)\n(#| version: R instad of {version = \"R})\nDo you know Lua and knitr? Let’s be friends."
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#quartos-multi-output-trick",
+    "href": "talks/3-r-python/r-python.html#quartos-multi-output-trick",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Quarto’s multi-output trick",
+    "text": "Quarto’s multi-output trick\nWhat it can do now:\n---\ntitle: \"My Versioned Doc\"\nformat: \n  html:\n    output-file: my_versioned_doc.html\n  pdf:\n    output-file: my_versioned_doc.pdf\n---\n\n::: {.content-visible when-format=\"html\"}\nClick here to expand!\n:::"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#quartos-multi-output-trick-1",
+    "href": "talks/3-r-python/r-python.html#quartos-multi-output-trick-1",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Quarto’s multi-output trick",
+    "text": "Quarto’s multi-output trick\nWhat I want:\n---\ntitle: \"My Versioned Doc\"\nformat: \n  html+R:\n    output-file: handout-r.html\n  html+python:\n    output-file: handout-python.html\n---\n\n::: {.content-visible when-variant=\"R\"}\nThe function `mutate()` will add a new variable.\n:::"
+  },
+  {
+    "objectID": "talks/3-r-python/r-python.html#resources",
+    "href": "talks/3-r-python/r-python.html#resources",
+    "title": "Bilingual Materials with Quarto",
+    "section": "Resources",
+    "text": "Resources\nInstall the templar package:\n\nremotes::install_github(\"r-for-educators/templar\")\n\nCo-author: Ian Flores Siaca\nContribute at www.github.com/r-for-educators/templar\nExamples of course materials generated with templar:\nhttps://github.com/Statistical-Learning-with-R"
+  },
+  {
+    "objectID": "talks/1-welcome/1-index.html",
+    "href": "talks/1-welcome/1-index.html",
+    "title": "Welcome to Quarto: From course notes to journal articles to books",
+    "section": "",
+    "text": "Quarto is a reproducible authoring system that unifies and extends the R Markdown ecosystem and enables you to weave together your code and prose to create documents, presentations, websites, books, and even journal articles. In this talk we will introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators."
+  },
+  {
+    "objectID": "talks/1-welcome/1-index.html#abstract",
+    "href": "talks/1-welcome/1-index.html#abstract",
+    "title": "Welcome to Quarto: From course notes to journal articles to books",
+    "section": "",
+    "text": "Quarto is a reproducible authoring system that unifies and extends the R Markdown ecosystem and enables you to weave together your code and prose to create documents, presentations, websites, books, and even journal articles. In this talk we will introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators."
+  },
+  {
+    "objectID": "talks/1-welcome/1-index.html#slides",
+    "href": "talks/1-welcome/1-index.html#slides",
+    "title": "Welcome to Quarto: From course notes to journal articles to books",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "talks/1-welcome/1-index.html#speaker",
+    "href": "talks/1-welcome/1-index.html#speaker",
+    "title": "Welcome to Quarto: From course notes to journal articles to books",
+    "section": "Speaker",
+    "text": "Speaker\nMine Çetinkaya-Rundel …"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/5-index.html",
+    "href": "talks/5-teaching-materials/5-index.html",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "",
+    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
+  },
+  {
+    "objectID": "talks/5-teaching-materials/5-index.html#abstract",
+    "href": "talks/5-teaching-materials/5-index.html#abstract",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "",
+    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
+  },
+  {
+    "objectID": "talks/5-teaching-materials/5-index.html#slides",
+    "href": "talks/5-teaching-materials/5-index.html#slides",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "talks/5-teaching-materials/5-index.html#speaker",
+    "href": "talks/5-teaching-materials/5-index.html#speaker",
+    "title": "Using Quarto for Making and Organizing Teaching Materials",
+    "section": "Speaker",
+    "text": "Speaker\nMaria Tackett …"
+  },
+  {
     "objectID": "talks/1-welcome/welcome.html#quarto",
     "href": "talks/1-welcome/welcome.html#quarto",
     "title": "Welcome to Quarto",
@@ -116,7 +312,7 @@
     "href": "talks/1-welcome/welcome.html#yaml",
     "title": "Welcome to Quarto",
     "section": "YAML",
-    "text": "YAML\nDocument metadata\ntitle: \"Hello, Penguins!\"\nformat: html\neditor: visual"
+    "text": "YAML\nDocument metadata\n\n\ntitle: \"Hello, Penguins!\"\nformat: html\neditor: visual\n\n\n\n\n\n\n\ntitle: \"Hello, Penguins!\"\nauthor: Mine Çetinkaya-Rundel\ninstitute: Duke University\ndate: now\n...\nformat: html\neditor: visual"
   },
   {
     "objectID": "talks/1-welcome/welcome.html#text",
@@ -130,14 +326,35 @@
     "href": "talks/1-welcome/welcome.html#code",
     "title": "Welcome to Quarto",
     "section": "Code",
-    "text": "Code\nR code chunks executed with knitr or Python, Julia, or Observable code chunks executed with Jupyter.\n# R code goes here\n\n\n# R code goes here\n\n# Python code goes here"
+    "text": "Code\n\n\nR code chunks executed with knitr 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANABBAEQAUQBBAE0AdwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBJAHcAQQBnAEEARgBJAEEASQBBAEIAagBBAEcAOABBAFoAQQBCAGwAQQBDAEEAQQBaAHcAQgB2AEEARwBVAEEAYwB3AEEAZwBBAEcAZwBBAFoAUQBCAHkAQQBHAFUAQQBDAGcAQgBnAEEARwBBAEEAWQBBAEEAPQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602\n\nPython, Julia, or Observable code chunks executed with Jupyter 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANQBBAEQAYwBBAE0AdwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgAQQBBAGUAUQBCADAAQQBHAGcAQQBiAHcAQgB1AEEASAAwAEEAZgBRAEEASwBBAEMATQBBAEkAQQBCAFEAQQBIAGsAQQBkAEEAQgBvAEEARwA4AEEAYgBnAEEAZwBBAEcATQBBAGIAdwBCAGsAQQBHAFUAQQBJAEEAQgBuAEEARwA4AEEAWgBRAEIAegBBAEMAQQBBAGEAQQBCAGwAQQBIAEkAQQBaAFEAQQBLAEEARwBBAEEAWQBBAEIAZwBBAEEAPQA9AAoAcwB1AGYAZgBpAHgAOgA=:31b8e172-b470-440e-83d8-e6b185028602"
   },
   {
-    "objectID": "talks/1-welcome/welcome.html#lets-see-quarto-in-action",
-    "href": "talks/1-welcome/welcome.html#lets-see-quarto-in-action",
+    "objectID": "talks/1-welcome/welcome.html#documents",
+    "href": "talks/1-welcome/welcome.html#documents",
     "title": "Welcome to Quarto",
-    "section": "Let’s see Quarto in action",
-    "text": "Let’s see Quarto in action\nhttps://github.com/mine-cetinkaya-rundel/quarto-harvard-ccb"
+    "section": "Documents",
+    "text": "Documents"
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#slides",
+    "href": "talks/1-welcome/welcome.html#slides",
+    "title": "Welcome to Quarto",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#journal-articles",
+    "href": "talks/1-welcome/welcome.html#journal-articles",
+    "title": "Welcome to Quarto",
+    "section": "Journal articles",
+    "text": "Journal articles"
+  },
+  {
+    "objectID": "talks/1-welcome/welcome.html#soon-reproducible-manuscripts-with-embedded-computation",
+    "href": "talks/1-welcome/welcome.html#soon-reproducible-manuscripts-with-embedded-computation",
+    "title": "Welcome to Quarto",
+    "section": "Soon: Reproducible manuscripts with embedded computation",
+    "text": "Soon: Reproducible manuscripts with embedded computation"
   },
   {
     "objectID": "talks/1-welcome/welcome.html#quarto-cli",
@@ -154,13 +371,6 @@
     "text": "Learning more\nhttps://quarto.org"
   },
   {
-    "objectID": "talks/1-welcome/welcome.html#look-forward-to",
-    "href": "talks/1-welcome/welcome.html#look-forward-to",
-    "title": "Welcome to Quarto",
-    "section": "Look forward to",
-    "text": "Look forward to\nQuarto 1.3! https://quarto.org/docs/prerelease/1.3/"
-  },
-  {
     "objectID": "talks/1-welcome/welcome.html#follow-up-with",
     "href": "talks/1-welcome/welcome.html#follow-up-with",
     "title": "Welcome to Quarto",
@@ -172,63 +382,7 @@
     "href": "talks/1-welcome/welcome.html#thank-you",
     "title": "Welcome to Quarto",
     "section": "Thank you!",
-    "text": "Thank you!\n🐘 https://fosstodon.org/@minecr"
-  },
-  {
-    "objectID": "talks/5-teaching-materials/5-index.html",
-    "href": "talks/5-teaching-materials/5-index.html",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "",
-    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
-  },
-  {
-    "objectID": "talks/5-teaching-materials/5-index.html#abstract",
-    "href": "talks/5-teaching-materials/5-index.html#abstract",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "",
-    "text": "In addition to creating reproducible documents, Quarto offers a rich suite of options for creation slide decks, books, and websites, allowing instructors to create all of their teaching materials reproducibly. In this talk we will demo how we’ve been using Quarto to create and organize teaching materials, introduce resources and templates for getting started with Quarto for organizing your own teaching materials, and share best practices."
-  },
-  {
-    "objectID": "talks/5-teaching-materials/5-index.html#slides",
-    "href": "talks/5-teaching-materials/5-index.html#slides",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Slides",
-    "text": "Slides"
-  },
-  {
-    "objectID": "talks/5-teaching-materials/5-index.html#speaker",
-    "href": "talks/5-teaching-materials/5-index.html#speaker",
-    "title": "Using Quarto for Making and Organizing Teaching Materials",
-    "section": "Speaker",
-    "text": "Speaker\nMaria Tackett …"
-  },
-  {
-    "objectID": "talks/1-welcome/1-index.html",
-    "href": "talks/1-welcome/1-index.html",
-    "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "",
-    "text": "Quarto is a reproducible authoring system that unifies and extends the R Markdown ecosystem and enables you to weave together your code and prose to create documents, presentations, websites, books, and even journal articles. In this talk we will introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators."
-  },
-  {
-    "objectID": "talks/1-welcome/1-index.html#abstract",
-    "href": "talks/1-welcome/1-index.html#abstract",
-    "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "",
-    "text": "Quarto is a reproducible authoring system that unifies and extends the R Markdown ecosystem and enables you to weave together your code and prose to create documents, presentations, websites, books, and even journal articles. In this talk we will introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators."
-  },
-  {
-    "objectID": "talks/1-welcome/1-index.html#slides",
-    "href": "talks/1-welcome/1-index.html#slides",
-    "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "Slides",
-    "text": "Slides"
-  },
-  {
-    "objectID": "talks/1-welcome/1-index.html#speaker",
-    "href": "talks/1-welcome/1-index.html#speaker",
-    "title": "Welcome to Quarto: From course notes to journal articles to books",
-    "section": "Speaker",
-    "text": "Speaker\nMine Çetinkaya-Rundel …"
+    "text": "Thank you!\n🐘 https://fosstodon.org/@minecr\n✉️ mailto:mc301@duke.edu"
   },
   {
     "objectID": "talks/3-r-python/3-index.html",
@@ -252,11 +406,18 @@
     "text": "Slides"
   },
   {
+    "objectID": "talks/3-r-python/3-index.html#links",
+    "href": "talks/3-r-python/3-index.html#links",
+    "title": "Blending R and Python in Quarto documents",
+    "section": "Links",
+    "text": "Links\ntemplar package: www.github.com/r-for-educators/templar\nExample materials: https://github.com/Statistical-Learning-with-R"
+  },
+  {
     "objectID": "talks/3-r-python/3-index.html#speaker",
     "href": "talks/3-r-python/3-index.html#speaker",
     "title": "Blending R and Python in Quarto documents",
     "section": "Speaker",
-    "text": "Speaker\nKelly Bodwin …"
+    "text": "Speaker\n\n\n\n\n\nKelly Bodwin is an Associate Professor of Statistics and Data Science at Cal Poly, in San Luis Obispo, CA. Her research includes R package development, studies of statistical education, and applications in a variety of fields such as history, biology, and viticulture. While R will always be her first love, she is slowly learning to accept python into her life."
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#outline",
@@ -319,7 +480,7 @@
     "href": "talks/2-intro-ds/jsmtalk-15.html#missing-syntax",
     "title": "Teaching  in Introductory Data Science",
     "section": "Missing Syntax",
-    "text": "Missing Syntax\n#| label: plot1\n#| warning false\n\n\nIn the Background Jobs pane:\nScanner error: while scanning a simple key at line 2, column 1 could not find\n  expected : at line 3, column 1"
+    "text": "Missing Syntax\n```{r}\n#| label: plot1\n#| warning false\n```\n\n\nIn the Background Jobs pane:\nScanner error: while scanning a simple key at line 2, column 1 could not find\n  expected : at line 3, column 1"
   },
   {
     "objectID": "talks/2-intro-ds/jsmtalk-15.html#indentation-error",

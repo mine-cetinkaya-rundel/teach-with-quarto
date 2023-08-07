@@ -2,38 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/about.html</loc>
-    <lastmod>2023-08-07T04:33:08.730Z</lastmod>
+    <lastmod>2023-08-04T21:51:44.078Z</lastmod>
   </url>
   <url>
     <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/talks/2-intro-ds/2-index.html</loc>
-    <lastmod>2023-08-07T04:33:07.078Z</lastmod>
+    <lastmod>2023-08-06T02:21:39.075Z</lastmod>
   </url>
   <url>
     <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/talks/4-automation/4-index.html</loc>
-    <lastmod>2023-08-07T04:33:04.196Z</lastmod>
+    <lastmod>2023-08-07T03:12:16.818Z</lastmod>
   </url>
   <url>
-    <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/talks/1-welcome/welcome.html</loc>
-    <lastmod>2023-08-07T04:33:03.590Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/talks/5-teaching-materials/5-index.html</loc>
-    <lastmod>2023-08-07T04:33:01.527Z</lastmod>
+    <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/talks/3-r-python/r-python.html</loc>
+    <lastmod>2023-08-07T10:20:59.363Z</lastmod>
   </url>
   <url>
     <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/talks/1-welcome/1-index.html</loc>
-    <lastmod>2023-08-07T04:33:01.840Z</lastmod>
+    <lastmod>2023-08-04T21:51:44.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/talks/5-teaching-materials/5-index.html</loc>
+    <lastmod>2023-08-07T04:28:07.720Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/talks/1-welcome/welcome.html</loc>
+    <lastmod>2023-08-07T05:00:54.951Z</lastmod>
   </url>
   <url>
     <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/talks/3-r-python/3-index.html</loc>
-    <lastmod>2023-08-07T04:33:03.887Z</lastmod>
+    <lastmod>2023-08-07T10:20:59.346Z</lastmod>
   </url>
   <url>
     <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/talks/2-intro-ds/jsmtalk-15.html</loc>
-    <lastmod>2023-08-07T04:33:06.773Z</lastmod>
+    <lastmod>2023-08-07T04:32:25.102Z</lastmod>
   </url>
   <url>
     <loc>https://mine-cetinkaya-rundel.github.io/teach-with-quarto/index.html</loc>
-    <lastmod>2023-08-07T04:33:07.608Z</lastmod>
+    <lastmod>2023-08-04T21:53:14.866Z</lastmod>
   </url>
 </urlset>

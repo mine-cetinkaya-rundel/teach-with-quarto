@@ -8,7 +8,7 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.4.298">
 
   <meta name="author" content="Mine Çetinkaya-Rundel">
   <meta name="dcterms.date" content="2023-08-06">
@@ -222,7 +222,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -463,9 +464,30 @@ Mine Çetinkaya-Rundel
 <section id="yaml" class="slide level2">
 <h2>YAML</h2>
 <p>Document metadata</p>
+<div class="columns">
+<div class="column" style="width:50%;">
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Hello, Penguins!"</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span>
 <span id="cb1-3"><a href="#cb1-3"></a><span class="fu">editor</span><span class="kw">:</span><span class="at"> visual</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/yaml-less.png"></p>
+</div>
+</div>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Hello, Penguins!"</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="fu">author</span><span class="kw">:</span><span class="at"> Mine Çetinkaya-Rundel</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="fu">institute</span><span class="kw">:</span><span class="at"> Duke University</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="fu">date</span><span class="kw">:</span><span class="at"> now</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="co">...</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="co">format: html</span></span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="co">editor: visual</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/yaml-more.png"></p>
+</div>
+</div>
+</div>
 </section>
 <section id="text" class="slide level2">
 <h2>Text</h2>
@@ -480,24 +502,30 @@ Mine Çetinkaya-Rundel
 </section>
 <section id="code" class="slide level2">
 <h2>Code</h2>
-<p>R code chunks executed with knitr or Python, Julia, or Observable code chunks executed with Jupyter.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource {{r}} number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a href="#cb2-1"></a># R code goes here</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource {{r}} number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a href="#cb3-1"></a># R code goes here</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>R code chunks executed with <strong>knitr</strong> 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANABBAEQAUQBBAE0AdwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBJAHcAQQBnAEEARgBJAEEASQBBAEIAagBBAEcAOABBAFoAQQBCAGwAQQBDAEEAQQBaAHcAQgB2AEEARwBVAEEAYwB3AEEAZwBBAEcAZwBBAFoAUQBCAHkAQQBHAFUAQQBDAGcAQgBnAEEARwBBAEEAWQBBAEEAPQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602</p>
 </div><div class="column" style="width:50%;">
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource {{python}} number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a href="#cb4-1"></a># Python code goes here</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Python, Julia, or Observable code chunks executed with <strong>Jupyter</strong> 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANQBBAEQAYwBBAE0AdwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgAQQBBAGUAUQBCADAAQQBHAGcAQQBiAHcAQgB1AEEASAAwAEEAZgBRAEEASwBBAEMATQBBAEkAQQBCAFEAQQBIAGsAQQBkAEEAQgBvAEEARwA4AEEAYgBnAEEAZwBBAEcATQBBAGIAdwBCAGsAQQBHAFUAQQBJAEEAQgBuAEEARwA4AEEAWgBRAEIAegBBAEMAQQBBAGEAQQBCAGwAQQBIAEkAQQBaAFEAQQBLAEEARwBBAEEAWQBBAEIAZwBBAEEAPQA9AAoAcwB1AGYAZgBpAHgAOgA=:31b8e172-b470-440e-83d8-e6b185028602</p>
 </div>
 </div>
 </section></section>
 <section>
-<section id="part" class="title-slide slide level1 center">
-<h1>part</h1>
+<section id="quarto-various-document-types" class="title-slide slide level1 center">
+<h1>Quarto + various document types</h1>
 
 </section>
-<section id="lets-see-quarto-in-action" class="slide level2 center">
-<h2>Let’s see Quarto in action</h2>
-<p><a href="https://github.com/mine-cetinkaya-rundel/quarto-harvard-ccb" class="uri">https://github.com/mine-cetinkaya-rundel/quarto-harvard-ccb</a></p>
+<section id="documents" class="slide level2">
+<h2>Documents</h2>
+</section>
+<section id="slides" class="slide level2">
+<h2>Slides</h2>
+</section>
+<section id="journal-articles" class="slide level2">
+<h2>Journal articles</h2>
+</section>
+<section id="soon-reproducible-manuscripts-with-embedded-computation" class="slide level2">
+<h2>Soon: Reproducible <code>manuscripts</code> with embedded computation</h2>
 </section></section>
 <section>
 <section id="parting-remarks" class="title-slide slide level1 center">
@@ -514,11 +542,6 @@ Mine Çetinkaya-Rundel
 <p><a href="https://quarto.org/">https://quarto.org</a></p>
 <iframe src="https://quarto.org/" width="100%" height="600" title="Quarto Website"></iframe>
 </section>
-<section id="look-forward-to" class="slide level2">
-<h2>Look forward to</h2>
-<p>Quarto 1.3! <a href="https://quarto.org/docs/prerelease/1.3">https://quarto.org/docs/prerelease/1.3/</a></p>
-<iframe src="https://quarto.org/docs/prerelease/1.3/index.html" width="100%" height="600" title="Quarto 1.3 Pre-release notes"></iframe>
-</section>
 <section id="follow-up-with" class="slide level2">
 <h2>Follow up with…</h2>
 <p>the Quarto Blog: <a href="https://quarto.org/docs/blog" class="uri">https://quarto.org/docs/blog</a></p>
@@ -527,6 +550,7 @@ Mine Çetinkaya-Rundel
 <section id="thank-you" class="slide level2" data-background-image="images/thank-you.png">
 <h2>Thank you!</h2>
 <p>🐘 <a href="https://fosstodon.org/@minecr">https://fosstodon.org/@minecr</a></p>
+<p>✉️ <a href="mc301@duke.edu">mailto:mc301@duke.edu</a></p>
 
 <div class="footer footer-default">
 
@@ -560,7 +584,6 @@ Mine Çetinkaya-Rundel
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -822,10 +845,9 @@ Mine Çetinkaya-Rundel
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -835,8 +857,17 @@ Mine Çetinkaya-Rundel
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
