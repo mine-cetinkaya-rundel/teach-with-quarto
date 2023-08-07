@@ -9,6 +9,7 @@ format:
     slide-number: c
     show-slide-number: all
     theme: sky
+    embed-resources: true
 execute:
   eval: false
   echo: true

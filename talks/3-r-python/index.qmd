@@ -13,7 +13,7 @@ Data science teams are increasingly "multilingual", using more than one statisti
 ## Slides
 
 ```{=html}
-<iframe src="/talks/3-r-python/r-python.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="/talks/3-r-python/r-python.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 ## Links
 
