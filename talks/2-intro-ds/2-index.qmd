@@ -2,6 +2,7 @@
 title: Teaching Quarto in Introduction to Data Science Courses
 author: Elijah Meyer
 subtitle: "2:25 - 2:45"
+image: featured.png
 description: Share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University.
 ---
 

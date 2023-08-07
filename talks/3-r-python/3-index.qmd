@@ -2,6 +2,7 @@
 title: Blending R and Python in Quarto documents
 author: Kelly Bodwin
 subtitle: "2:45 - 3:05"
+image: featured.png
 description: 'Overview of the advantages and drawbacks of using Quarto for "bilingual" materials in the data science classroom as well as tips and tricks for managing these blended documents.'
 ---
 
@@ -14,7 +15,6 @@ Data science teams are increasingly "multilingual", using more than one statisti
 ```{=html}
 <iframe class="slide-deck" src="talks/3-r-python/r-python.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
-
 ## Links
 
 `templar` package: www.github.com/r-for-educators/templar
