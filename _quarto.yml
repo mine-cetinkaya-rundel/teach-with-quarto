@@ -8,13 +8,14 @@ website:
   repo-url: https://github.com/mine-cetinkaya-rundel/teach-with-quarto
   repo-actions: [edit, issue]
   navbar:
+    logo: jsm-logo.png
+    search: true
     left:
       - href: index.qmd
         text: Home
     tools:
       - icon: github
         href: https://github.com/mine-cetinkaya-rundel/teach-with-quarto
-    
 
 format:
   html:

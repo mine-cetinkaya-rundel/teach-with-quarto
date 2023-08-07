@@ -9,6 +9,8 @@ listing:
     - filename
 ---
 
+![](jsm-logo.png){style="float: right;" fig-alt="JSM 2023 Logo" width="150"}
+
 Monday, Aug 7\
 2:00 PM - 3:50 PM\
 [Session \# 1797](https://ww2.aievolution.com/JSMAnnual/index.cfm?do=ev.viewEv&ev=2605) \
