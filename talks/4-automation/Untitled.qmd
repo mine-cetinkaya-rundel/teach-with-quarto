@@ -1,0 +1,7 @@
+---
+format: html
+---
+
+```{r}
+plot(cars)
+```
