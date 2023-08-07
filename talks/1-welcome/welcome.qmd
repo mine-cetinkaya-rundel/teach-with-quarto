@@ -10,7 +10,7 @@ title-slide-attributes:
   data-background-opacity: "0.8"
 format: 
   revealjs: 
-    theme: [default, welcome.scss]
+    theme: welcome.scss
     multiplex: true
     transition: fade
 execute:

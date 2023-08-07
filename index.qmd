@@ -2,7 +2,7 @@
 title: Teaching (with) Quarto
 subtitle: JSM 2023
 listing:
-  contents: talks/*/*-index.qmd
+  contents: talks/*/index.qmd
   fields: [image, title, author, subtitle]
   type: grid
   sort:
