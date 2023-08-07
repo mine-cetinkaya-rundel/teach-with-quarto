@@ -2,6 +2,7 @@
 title: "Welcome to Quarto: From course notes to journal articles to books"
 subtitle: "2:05 - 2:25"
 author: Mine Çetinkaya-Rundel
+image: featured.png
 description: Introduce Quarto from the lens of an educator, highlighting aspects of Quarto that facilitate teaching and learning reproducible data science as well as that improve the lives of educators.
 ---
 
