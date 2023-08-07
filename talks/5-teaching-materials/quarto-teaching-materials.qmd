@@ -7,7 +7,7 @@ date-format: long
 footer: "[🔗 bit.ly/teach-quarto](https://bit.ly/teach-quarto)"
 format: 
   revealjs:
-    theme: slides.scss
+    theme: tackett-slides.scss
     slide-number: false
     incremental: false 
     chalkboard: 
