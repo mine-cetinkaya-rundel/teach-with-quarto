@@ -12,7 +12,7 @@ Quarto is a reproducible authoring system that unifies and extends the R Markdow
 ## Slides
 
 ```{=html}
-<iframe class="slide-deck" src="talks/1-welcome/welcome.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="/talks/1-welcome/welcome.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 ## Speaker
 

@@ -1,0 +1,65 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+
+$font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
+$presentation-heading-color: #556e87;
+$presentation-font-size-root: 36px;
+$code-block-font-size: 0.7em;
+$link-color: #556e87;
+
+/*-- scss:rules --*/
+
+#title-slide .subtitle {
+  color: #F0F0F0;
+  background-color: #556e8780;
+  font-size: 1.4em;
+}
+
+#title-slide .title {
+  color: #F0F0F0;
+  background-color: #556e8780;
+}
+
+#title-slide .quarto-title-authors {
+  color: #F0F0F0;
+  background-color: #556e8780;
+}
+
+#title-slide .date {
+  color: #F0F0F0;
+  background-color: #556e8780;
+}
+
+details>summary {
+  font-size: 0.75em;
+}
+
+.smaller {
+  font-size: 0.5em;
+}
+
+.small {
+  font-size: 0.75em;
+}
+
+.larger {
+  font-size: 1.5em;
+}
+
+.largest {
+  font-size: 3em;
+}
+
+.reveal countdown {
+  position: fixed;
+  bottom: 0em;
+  right: 0em;
+  font-size: 40px;
+  border: 2px solid;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  user-select: none;
+}

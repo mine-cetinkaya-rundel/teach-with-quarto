@@ -1,14 +1,201 @@
 ---
-title: "Welcome to Quarto: From course notes to journal articles to books"
-format: revealjs
+title: Welcome to Quarto
+subtitle: From course notes to journal articles to books
+author: Mine Çetinkaya-Rundel
+institution: Duke University + Posit
+date: 2023-08-06
+title-slide-attributes:
+  data-background-image: images/horst-teach-quarto.png
+  data-background-size: stretch
+  data-background-opacity: "0.8"
+format: 
+  revealjs: 
+    theme: [default, welcome.scss]
+    multiplex: true
+    transition: fade
+execute:
+  echo: true
 ---
 
-# Section 1
+# What is Quarto?
 
-## Slide 1
+## Quarto ...
 
-## Slide 2
+-   is a new, open-source, scientific, and technical publishing system
+-   aims to make the process of creating and collaborating dramatically better
 
-# Section 2
+![Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.](images/horst_quarto_schematic.png){fig-alt="A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto." fig-align="center"}
 
-## Slide 3
+## A bit of magic {background-image="images/horst_meteor.png" background-size="70%" background-repeat="no-repeat"}
+
+::: {style="text-align: center; font-size: 2em;"}
+[bit.ly/twq-welcome](https://bit.ly/twq-welcome)
+:::
+
+## Quarto ... {.center auto-animate="true"}
+
+**unifies** + **extends** the R Markdown ecosystem
+
+## Quarto ... {.center auto-animate="true"}
+
+**unifies** + **extends** the R Markdown ecosystem
+
+<br>
+
+**unifies** for people who love R Markdown
+
+## Quarto ... {.center auto-animate="true"}
+
+**unifies** + **extends** the R Markdown ecosystem
+
+<br>
+
+**unifies** for people who love R Markdown
+
+**extends** for people who don't know R Markdown
+
+## Quarto unifies + extends R Markdown
+
+::: incremental
+-   Consistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.
+-   More accessible defaults as well as better support for accessibility
+-   Guardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.
+-   Support for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks.
+:::
+
+## Quarto, in a nutshell
+
+```{=html}
+<script src="https://fast.wistia.com/embed/medias/9yok93f94g.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:58.75% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_9yok93f94g seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/9yok93f94g/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+```
+# Anatomy of a Quarto document
+
+## YAML
+
+Document metadata
+
+::: columns
+::: {.column width="50%"}
+``` yaml
+title: "Hello, Penguins!"
+format: html
+editor: visual
+```
+:::
+
+::: {.column width="50%"}
+![](images/yaml-less.png)
+:::
+:::
+
+. . .
+
+::: columns
+::: {.column width="50%"}
+``` yaml
+title: "Hello, Penguins!"
+author: Mine Çetinkaya-Rundel
+institute: Duke University
+date: now
+...
+format: html
+editor: visual
+```
+:::
+
+::: {.column width="50%"}
+![](images/yaml-more.png)
+:::
+:::
+
+## Text
+
+Markdown, that can be edited with any editor, including RStudio's source or visual editors.
+
+::: columns
+::: {.column width="50%"}
+![](images/source-editor.png)
+:::
+
+::: {.column width="50%"}
+![](images/visual-editor.png)
+:::
+:::
+
+## Code
+
+::: columns
+::: {.column width="50%"}
+R code chunks executed with **knitr** 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANABBAEQAUQBBAE0AdwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgASQBBAGYAUQBCADkAQQBBAG8AQQBJAHcAQQBnAEEARgBJAEEASQBBAEIAagBBAEcAOABBAFoAQQBCAGwAQQBDAEEAQQBaAHcAQgB2AEEARwBVAEEAYwB3AEEAZwBBAEcAZwBBAFoAUQBCAHkAQQBHAFUAQQBDAGcAQgBnAEEARwBBAEEAWQBBAEEAPQAKAHMAdQBmAGYAaQB4ADoA:31b8e172-b470-440e-83d8-e6b185028602
+:::
+
+::: {.column width="50%"}
+Python, Julia, or Observable code chunks executed with **Jupyter** 31b8e172-b470-440e-83d8-e6b185028602:dAB5AHAAZQA6AE8AUQBCAGoAQQBHAEkAQQBOAHcAQQA1AEEARwBVAEEATgBnAEIAagBBAEMAMABBAE8AQQBBADQAQQBEAGcAQQBaAEEAQQB0AEEARABRAEEAWQBRAEEAdwBBAEcAVQBBAEwAUQBBADUAQQBHAE0AQQBPAFEAQgBpAEEAQwAwAEEAWgBnAEIAbQBBAEQAWQBBAE4AdwBCAGoAQQBHAFEAQQBOAEEAQQB3AEEARABRAEEAWgBRAEEAMgBBAEQAQQBBAAoAcABvAHMAaQB0AGkAbwBuADoATQB3AEEANQBBAEQAYwBBAE0AdwBBAD0ACgBwAHIAZQBmAGkAeAA6AAoAcwBvAHUAcgBjAGUAOgBZAEEAQgBnAEEARwBBAEEAZQB3AEIANwBBAEgAQQBBAGUAUQBCADAAQQBHAGcAQQBiAHcAQgB1AEEASAAwAEEAZgBRAEEASwBBAEMATQBBAEkAQQBCAFEAQQBIAGsAQQBkAEEAQgBvAEEARwA4AEEAYgBnAEEAZwBBAEcATQBBAGIAdwBCAGsAQQBHAFUAQQBJAEEAQgBuAEEARwA4AEEAWgBRAEIAegBBAEMAQQBBAGEAQQBCAGwAQQBIAEkAQQBaAFEAQQBLAEEARwBBAEEAWQBBAEIAZwBBAEEAPQA9AAoAcwB1AGYAZgBpAHgAOgA=:31b8e172-b470-440e-83d8-e6b185028602
+:::
+:::
+
+# Quarto + various document types
+
+## Documents
+
+. . .
+
+::: notes
+-   Open the simple Quarto document called `index.qmd` and edit it using the RStudio Visual Editor.
+
+-   Bold palmerpenguins and add link to <https://allisonhorst.github.io/palmerpenguins/>.
+
+-   Add code chunk options:
+
+    -   `fig-alt`
+
+    -   `echo: false` in `execute` in the YAML
+
+    -   `code-fold`
+
+    -   teaching tip: `echo: fenced`
+
+-   Add a figure and a table and cross reference them
+
+-   Add a citation: 10.1371/journal.pone.0090081
+:::
+
+## Slides
+
+. . .
+
+## Journal articles
+
+. . .
+
+## Soon: Reproducible `manuscripts` with embedded computation
+
+. . .
+
+# Parting remarks
+
+## Quarto CLI...
+
+orchestrates each step of rendering
+
+![Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.](images/horst_qmd_render_schema.png){fig-alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document."}
+
+## Learning more
+
+[https://quarto.org](https://quarto.org/)
+
+```{=html}
+<iframe src="https://quarto.org/" width="100%" height="600" title="Quarto Website"></iframe>
+```
+## Follow up with...
+
+the Quarto Blog: <https://quarto.org/docs/blog>
+
+```{=html}
+<iframe src="https://quarto.org/docs/blog/" width="100%" height="600" title="Quarto 1.3 Pre-release notes"></iframe>
+```
+## Thank you! {background-image="images/thank-you.png"}
+
+🐘 [https://fosstodon.org/\@minecr](https://fosstodon.org/@minecr)
+
+✉️ [mailto:mc301\@duke.edu](mc301@duke.edu)
