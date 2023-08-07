@@ -3,6 +3,7 @@ title: Teaching (with) Quarto
 subtitle: JSM 2023
 listing:
   contents: talks/*/*-index.qmd
+  fields: [image, title, author, subtitle]
   type: grid
   sort:
     - filename
@@ -19,6 +20,6 @@ Quarto is an open-source scientific and technical publishing system that unifies
 
 **Session organizer:** Mine Çetinkaya-Rundel - Duke University + Posit
 
-**Session chair:** Allison Theobold - Cal Poly
+**Session chair:** [Allison Theobold](https://statistics.calpoly.edu/allison-theobold) - Cal Poly
 
 ## Talks
