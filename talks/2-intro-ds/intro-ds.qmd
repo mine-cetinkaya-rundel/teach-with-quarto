@@ -12,7 +12,8 @@ format:
     incremental: true 
     slide-number: c
     show-slide-number: all
-    theme: [dark, slides.scss]
+    theme: [dark, intro-ds.scss]
+    embed-resources: true
 bibliography: references.bib
 ---
 

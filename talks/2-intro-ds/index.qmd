@@ -13,7 +13,7 @@ Quarto, the next-generation version of R Markdown, is a powerful tool that helps
 ## Slides
 
 ```{=html}
-<iframe class="slide-deck" src="/talks/2-intro-ds/jsmtalk-15.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="/talks/2-intro-ds/intro-ds.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 ## Speaker
 
