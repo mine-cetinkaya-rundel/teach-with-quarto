@@ -13,16 +13,16 @@ Data science teams are increasingly "multilingual", using more than one statisti
 ## Slides
 
 ```{=html}
-<iframe class="slide-deck" src="talks/3-r-python/r-python.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe src="/talks/3-r-python/r-python.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 ## Links
 
-`templar` package: www.github.com/r-for-educators/templar
+`templar` package: <https://www.github.com/r-for-educators/templar>
 
-Example materials: https://github.com/Statistical-Learning-with-R
+Example materials: <https://github.com/Statistical-Learning-with-R>
 
 ## Speaker
 
-![](images/headshot_glasses_2.jpg){fig-alt="A photo of Kelly" fig-align="center" width="3in"}
+![](kelly-bodwin.jpg){style="float: right; padding-left: 10px;" fig-alt="A photo of Kelly" fig-align="right" width="300"}
 
 Kelly Bodwin is an Associate Professor of Statistics and Data Science at Cal Poly, in San Luis Obispo, CA. Her research includes R package development, studies of statistical education, and applications in a variety of fields such as history, biology, and viticulture. While R will always be her first love, she is slowly learning to accept python into her life.
