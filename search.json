@@ -21,165 +21,32 @@
     "text": "Talks"
   },
   {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#outline",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#outline",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Outline",
-    "text": "Outline\n\n\nHow\nBenefits"
+    "objectID": "talks/2-intro-ds/index.html",
+    "href": "talks/2-intro-ds/index.html",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "section": "",
+    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
   },
   {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#how-application-exercises",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#how-application-exercises",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "How: Application Exercises",
-    "text": "How: Application Exercises"
+    "objectID": "talks/2-intro-ds/index.html#abstract",
+    "href": "talks/2-intro-ds/index.html#abstract",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "section": "",
+    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
   },
   {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#when-first-teaching",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#when-first-teaching",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "When First Teaching",
-    "text": "When First Teaching\n\nStick to “what’s familiar”\nStick to “basics”"
+    "objectID": "talks/2-intro-ds/index.html#slides",
+    "href": "talks/2-intro-ds/index.html#slides",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "section": "Slides",
+    "text": "Slides"
   },
   {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#visual-vs-source-tab",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#visual-vs-source-tab",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Visual vs Source Tab",
-    "text": "Visual vs Source Tab\n\n\n\n\n\n\n\n(a)\n\n\n\n\n\n\n\n(b)\n\n\n\n\nFigure 1: Source (a) vs Visual (b)"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#quarto-layout",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#quarto-layout",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Quarto Layout",
-    "text": "Quarto Layout"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#quarto-as-a-teaching-tool",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#quarto-as-a-teaching-tool",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Quarto as a Teaching Tool",
-    "text": "Quarto as a Teaching Tool\nOnce students have the layout…Lean into what Quarto has to offer\n\nInformative Syntax and Completion\nInformative Error Messages"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#informative-syntax-and-completion",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#informative-syntax-and-completion",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Informative Syntax and Completion",
-    "text": "Informative Syntax and Completion"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#informative-errors-and-common-mistakes",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#informative-errors-and-common-mistakes",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Informative Errors and Common Mistakes",
-    "text": "Informative Errors and Common Mistakes\nApproachability of Quarto error messages alleviates some tension in an intro class"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#missing-syntax",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#missing-syntax",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Missing Syntax",
-    "text": "Missing Syntax\n```{r}\n#| label: plot1\n#| warning false\n```\n\n\nIn the Background Jobs pane:\nScanner error: while scanning a simple key at line 2, column 1 could not find\n  expected : at line 3, column 1"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#indentation-error",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#indentation-error",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Indentation Error",
-    "text": "Indentation Error\ntitle: \"Demo Document\"\n  author: \"Student 1\"\nformat: html\neditor: visual\n\n\nIn the Background Jobs pane:\nERROR: YAMLError: bad indentation of a mapping entry at line 3, column 3:\n      author: \"Student 1\"\n      ^"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "In-class activity",
-    "text": "In-class activity\nUse well scaffolded Quarto documents\n\nprovide the code early\nprovide documentation\nfill in the blank code\nprovide code with errors"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#suggestions-in-class-activity",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#suggestions-in-class-activity",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Suggestions: In-class activity",
-    "text": "Suggestions: In-class activity\n\n\n\n\n\nMinimal chunk options\n\n\nlabel:\nwarning:\nmessage:\necho:\nfigure options\n\n\n\nMinimal YAML\n\n\ntitle:\nauthor:\nformat:\neditor:"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity-1",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#in-class-activity-1",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "In-class activity",
-    "text": "In-class activity\nRender early and often!\n\n\nprovide check points to build habit\nExample Application Exercise"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#from-the-students-perspective",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#from-the-students-perspective",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "From the student’s perspective",
-    "text": "From the student’s perspective\n\nUseful tool: Good habit to build for future coursework + career\nProof of work: A project they can take with them"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#project-with-quarto",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#project-with-quarto",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Project with Quarto",
-    "text": "Project with Quarto"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#how-we-do-it",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#how-we-do-it",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "How we do it",
-    "text": "How we do it"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#how-we-do-it-1",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#how-we-do-it-1",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "How we do it",
-    "text": "How we do it"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#project-professional-document",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#project-professional-document",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Project: Professional Document",
-    "text": "Project: Professional Document\nR Markdown:\n\nknitr::opts_chunk$set(echo = FALSE)  \n\n\n\nQuarto: Easier to get started and attempts to “smooth” the edges of R Markdown\n\ntitle: \"Project Title\" \nexecute:\n  echo: false"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#from-the-instructors-perspective",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#from-the-instructors-perspective",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "From the instructor’s perspective",
-    "text": "From the instructor’s perspective\nEfficiency\n\nReproducible lessons to adapt\nConsistent formatting = easier grading"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#going-beyond",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#going-beyond",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Going Beyond",
-    "text": "Going Beyond\nCitations"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#in-summary",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#in-summary",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "In Summary",
-    "text": "In Summary\n\nStart minimal and build up!\nContinuously practice\nReproducibility becomes not optional\nKnow that the investment pays off"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#motivating-example",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#motivating-example",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "Motivating Example",
-    "text": "Motivating Example\n\nLack of Trust in Science (Fanelli 2018)"
-  },
-  {
-    "objectID": "talks/2-intro-ds/jsmtalk-15.html#references",
-    "href": "talks/2-intro-ds/jsmtalk-15.html#references",
-    "title": "Teaching  in Introductory Data Science",
-    "section": "References",
-    "text": "References\n\n\n\n\n\n\nFanelli, Daniele. 2018. “Is Science Really Facing a Reproducibility Crisis, and Do We Need It To?” Proceedings of the National Academy of Sciences 115 (11): 2628–31. https://doi.org/10.1073/pnas.1708272114."
+    "objectID": "talks/2-intro-ds/index.html#speaker",
+    "href": "talks/2-intro-ds/index.html#speaker",
+    "title": "Teaching Quarto in Introduction to Data Science Courses",
+    "section": "Speaker",
+    "text": "Speaker\nElijah Meyer …"
   },
   {
     "objectID": "talks/3-r-python/index.html",
@@ -567,31 +434,164 @@
     "text": "Speaker\nColin Rundel is Associate Professor of the Practice at Duke University where he has been teaching since 2012. His work focuses on teaching statistical computing to both undergraduate and graduate students in both R and Python."
   },
   {
-    "objectID": "talks/2-intro-ds/index.html",
-    "href": "talks/2-intro-ds/index.html",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
-    "section": "",
-    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
+    "objectID": "talks/2-intro-ds/intro-ds.html#outline",
+    "href": "talks/2-intro-ds/intro-ds.html#outline",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Outline",
+    "text": "Outline\n\n\nHow\nBenefits"
   },
   {
-    "objectID": "talks/2-intro-ds/index.html#abstract",
-    "href": "talks/2-intro-ds/index.html#abstract",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
-    "section": "",
-    "text": "Quarto, the next-generation version of R Markdown, is a powerful tool that helps students be more of an active participant in class while simultaneously highlighting the importance of reproducibility in science. In this talk, we discuss how to facilitate the use of Quarto into classroom pedagogy for students who are learning the programming language R and Quarto at the same time. In combination with R, this tool can help instructions create interactive live-coding experiences for students. Features of Quarto provide multiple ways for students to write code and type written answers to questions on their own, in groups, or along with the instructor during lecture. Students can also learn to create their own project reports, and turn their projects into hosted websites. In this session, we share how Quarto is used in an Introductory Data Science course for students with little to no coding experience at Duke University. Further, we go into benefits and challenges of teaching with Quarto from both the instructor and student perspective."
+    "objectID": "talks/2-intro-ds/intro-ds.html#how-application-exercises",
+    "href": "talks/2-intro-ds/intro-ds.html#how-application-exercises",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "How: Application Exercises",
+    "text": "How: Application Exercises"
   },
   {
-    "objectID": "talks/2-intro-ds/index.html#slides",
-    "href": "talks/2-intro-ds/index.html#slides",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
-    "section": "Slides",
-    "text": "Slides"
+    "objectID": "talks/2-intro-ds/intro-ds.html#when-first-teaching",
+    "href": "talks/2-intro-ds/intro-ds.html#when-first-teaching",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "When First Teaching",
+    "text": "When First Teaching\n\nStick to “what’s familiar”\nStick to “basics”"
   },
   {
-    "objectID": "talks/2-intro-ds/index.html#speaker",
-    "href": "talks/2-intro-ds/index.html#speaker",
-    "title": "Teaching Quarto in Introduction to Data Science Courses",
-    "section": "Speaker",
-    "text": "Speaker\nElijah Meyer …"
+    "objectID": "talks/2-intro-ds/intro-ds.html#visual-vs-source-tab",
+    "href": "talks/2-intro-ds/intro-ds.html#visual-vs-source-tab",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Visual vs Source Tab",
+    "text": "Visual vs Source Tab\n\n\n\n\n\n\n\n(a)\n\n\n\n\n\n\n\n(b)\n\n\n\n\nFigure 1: Source (a) vs Visual (b)"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#quarto-layout",
+    "href": "talks/2-intro-ds/intro-ds.html#quarto-layout",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Quarto Layout",
+    "text": "Quarto Layout"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#quarto-as-a-teaching-tool",
+    "href": "talks/2-intro-ds/intro-ds.html#quarto-as-a-teaching-tool",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Quarto as a Teaching Tool",
+    "text": "Quarto as a Teaching Tool\nOnce students have the layout…Lean into what Quarto has to offer\n\nInformative Syntax and Completion\nInformative Error Messages"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#informative-syntax-and-completion",
+    "href": "talks/2-intro-ds/intro-ds.html#informative-syntax-and-completion",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Informative Syntax and Completion",
+    "text": "Informative Syntax and Completion"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#informative-errors-and-common-mistakes",
+    "href": "talks/2-intro-ds/intro-ds.html#informative-errors-and-common-mistakes",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Informative Errors and Common Mistakes",
+    "text": "Informative Errors and Common Mistakes\nApproachability of Quarto error messages alleviates some tension in an intro class"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#missing-syntax",
+    "href": "talks/2-intro-ds/intro-ds.html#missing-syntax",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Missing Syntax",
+    "text": "Missing Syntax\n```{r}\n#| label: plot1\n#| warning false\n```\n\n\nIn the Background Jobs pane:\nScanner error: while scanning a simple key at line 2, column 1 could not find\n  expected : at line 3, column 1"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#indentation-error",
+    "href": "talks/2-intro-ds/intro-ds.html#indentation-error",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Indentation Error",
+    "text": "Indentation Error\ntitle: \"Demo Document\"\n  author: \"Student 1\"\nformat: html\neditor: visual\n\n\nIn the Background Jobs pane:\nERROR: YAMLError: bad indentation of a mapping entry at line 3, column 3:\n      author: \"Student 1\"\n      ^"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#in-class-activity",
+    "href": "talks/2-intro-ds/intro-ds.html#in-class-activity",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "In-class activity",
+    "text": "In-class activity\nUse well scaffolded Quarto documents\n\nprovide the code early\nprovide documentation\nfill in the blank code\nprovide code with errors"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#suggestions-in-class-activity",
+    "href": "talks/2-intro-ds/intro-ds.html#suggestions-in-class-activity",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Suggestions: In-class activity",
+    "text": "Suggestions: In-class activity\n\n\n\n\n\nMinimal chunk options\n\n\nlabel:\nwarning:\nmessage:\necho:\nfigure options\n\n\n\nMinimal YAML\n\n\ntitle:\nauthor:\nformat:\neditor:"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#in-class-activity-1",
+    "href": "talks/2-intro-ds/intro-ds.html#in-class-activity-1",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "In-class activity",
+    "text": "In-class activity\nRender early and often!\n\n\nprovide check points to build habit\nExample Application Exercise"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#from-the-students-perspective",
+    "href": "talks/2-intro-ds/intro-ds.html#from-the-students-perspective",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "From the student’s perspective",
+    "text": "From the student’s perspective\n\nUseful tool: Good habit to build for future coursework + career\nProof of work: A project they can take with them"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#project-with-quarto",
+    "href": "talks/2-intro-ds/intro-ds.html#project-with-quarto",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Project with Quarto",
+    "text": "Project with Quarto"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#how-we-do-it",
+    "href": "talks/2-intro-ds/intro-ds.html#how-we-do-it",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "How we do it",
+    "text": "How we do it"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#how-we-do-it-1",
+    "href": "talks/2-intro-ds/intro-ds.html#how-we-do-it-1",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "How we do it",
+    "text": "How we do it"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#project-professional-document",
+    "href": "talks/2-intro-ds/intro-ds.html#project-professional-document",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Project: Professional Document",
+    "text": "Project: Professional Document\nR Markdown:\n\nknitr::opts_chunk$set(echo = FALSE)  \n\n\n\nQuarto: Easier to get started and attempts to “smooth” the edges of R Markdown\n\ntitle: \"Project Title\" \nexecute:\n  echo: false"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#from-the-instructors-perspective",
+    "href": "talks/2-intro-ds/intro-ds.html#from-the-instructors-perspective",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "From the instructor’s perspective",
+    "text": "From the instructor’s perspective\nEfficiency\n\nReproducible lessons to adapt\nConsistent formatting = easier grading"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#going-beyond",
+    "href": "talks/2-intro-ds/intro-ds.html#going-beyond",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Going Beyond",
+    "text": "Going Beyond\nCitations"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#in-summary",
+    "href": "talks/2-intro-ds/intro-ds.html#in-summary",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "In Summary",
+    "text": "In Summary\n\nStart minimal and build up!\nContinuously practice\nReproducibility becomes not optional\nKnow that the investment pays off"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#motivating-example",
+    "href": "talks/2-intro-ds/intro-ds.html#motivating-example",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "Motivating Example",
+    "text": "Motivating Example\n\nLack of Trust in Science (Fanelli 2018)"
+  },
+  {
+    "objectID": "talks/2-intro-ds/intro-ds.html#references",
+    "href": "talks/2-intro-ds/intro-ds.html#references",
+    "title": "Teaching  in Introductory Data Science",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\nFanelli, Daniele. 2018. “Is Science Really Facing a Reproducibility Crisis, and Do We Need It To?” Proceedings of the National Academy of Sciences 115 (11): 2628–31. https://doi.org/10.1073/pnas.1708272114."
   }
 ]
