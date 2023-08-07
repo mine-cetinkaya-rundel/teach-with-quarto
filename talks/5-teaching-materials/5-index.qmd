@@ -12,7 +12,7 @@ In addition to creating reproducible documents, Quarto offers a rich suite of op
 ## Slides
 
 ```{=html}
-<iframe class="slide-deck" src="talks/4-automation/automation.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="talks/5-teaching-materials/quarto-teaching-materials.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 ## Speaker
 
