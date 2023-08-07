@@ -26,7 +26,7 @@ bibliography: references.bib
 
 ## How: Application Exercises
 
-![](images/ae-demo.gif){width="710"}
+![](images/ae-demo.gif){width="1000" height="600"}
 
 ## When First Teaching
 
@@ -37,9 +37,9 @@ bibliography: references.bib
 ## Visual vs Source Tab
 
 ::: {#fig-R2 layout-ncol="2"}
-![](images/source.png){#fig-s width="1000"}
+![](images/source2.png){#fig-s width="1000"}
 
-![](images/visual.png){#fig-v width="1000"}
+![](images/visual2.png){#fig-v width="1000"}
 
 Source (a) vs Visual (b)
 :::
@@ -58,7 +58,7 @@ Once students have the layout...Lean into what Quarto has to offer
 
 ## Informative Syntax and Completion
 
-![](images/figure-set.gif){wheidth="1000" height="300"}
+![](images/figure-set.gif){width="1000" height="600"}
 
 ## Informative Errors and Common Mistakes
 
@@ -78,11 +78,9 @@ Approachability of Quarto error messages alleviates some tension in an intro cla
 In the **Background Jobs** pane:
 
 ``` bash
-ERROR: YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key (Untitled.qmd, 7:17)
-6: #| label: plot1
-7: #| warning false
-                  ~
-8: ```
+Scanner error: while scanning a simple key at line 2, column 1 could not find
+  expected : at line 3, column 1
+
 ```
 
 ## Indentation Error
