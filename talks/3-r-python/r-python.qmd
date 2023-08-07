@@ -1,9 +1,5 @@
 ---
 title: "Bilingual Materials with Quarto"
-title-slide-attributes:
-  data-background-image: /images/quarto_logo.png
-  data-background-size: 31%
-  data-background-position: 62% 18% 
 author: "Dr. Kelly Bodwin"
 institute: "California Polytechnic State University"
 date: now
@@ -24,13 +20,13 @@ execute:
 
 In **R Markdown**, to use python, you had to set everything up **in R** using the *reticulate* package:
 
-## {auto-animate="true"}
+##  {auto-animate="true"}
 
 ```{r}
 library(reticulate)
 ```
 
-## {auto-animate="true"}
+##  {auto-animate="true"}
 
 ```{r}
 library(reticulate)
@@ -39,9 +35,9 @@ use_python("/usr/local/bin/python3")
 py_discover_config()
 ```
 
-## {auto-animate="true"}
+##  {auto-animate="true"}
 
-```{r} 
+```{r}
 library(reticulate)
 py_config()
 use_python("/usr/local/bin/python3")
@@ -52,9 +48,9 @@ py_run_string("import os as os")
 py_run_string("os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = 'C:/Users/kbodwin/Anaconda3/Library/plugins/platforms'")
 ```
 
-## {auto-animate="true"}
+##  {auto-animate="true"}
 
-```{r} 
+```{r}
 library(reticulate)
 py_config()
 use_python("/usr/local/bin/python3")
@@ -69,8 +65,6 @@ reticulate::py_install("scikit-learn")
 reticulate::py_install("scipy")
 ```
 
-
-
 ## Engine Setup
 
 Now, it's all "under the hood":
@@ -81,7 +75,6 @@ title: "My document"
 jupyter: python3
 ---
 ```
-
 
 # Tricks for interweaving R and python
 
@@ -95,7 +88,7 @@ jupyter: python3
 
 -   Access *python* objects from *R* with `py$`
 
-- Access *R* objects from *python* with `r.`
+-   Access *R* objects from *python* with `r.`
 
 ## Object passing
 
@@ -130,12 +123,11 @@ py$coef
 
 ## Jupyter
 
--   Do you like Jupyter notebooks?  **Me too!**
+-   Do you like Jupyter notebooks? **Me too!**
 
--  Do you like Colab and/or Posit Cloud?  **Me too!**
+-   Do you like Colab and/or Posit Cloud? **Me too!**
 
-- Do you want to make your materials in Quarto but distribute to students in Jupyter form?  **Me too!**  
-
+-   Do you want to make your materials in Quarto but distribute to students in Jupyter form? **Me too!**
 
 ```{r}
 #| code-fold: true
@@ -147,31 +139,29 @@ quarto render class_notes.ipynb
 
 ## Remaining challenges of multilingual docs
 
-1. Most undergrad programs **don't require** multiple languages.
+1.  Most undergrad programs **don't require** multiple languages.
 
-2. Detecting python **installs and packages** isn't perfect.
+2.  Detecting python **installs and packages** isn't perfect.
 
-3. R and python do not always have the **same default implementations** for models.
+3.  R and python do not always have the **same default implementations** for models.
 
-4. What if what you want is not a **multilingual** document, but duplicated **translated** documents?
+4.  What if what you want is not a **multilingual** document, but duplicated **translated** documents?
 
-
-# `versions()` functions in `templar` mini-package 
+# `versions()` functions in `templar` mini-package
 
 ## What it does
 
-Upon rendering... 
+Upon rendering...
 
-1. Identifies the **R chunks** from the **python chunks**
+1.  Identifies the **R chunks** from the **python chunks**
 
-2. Identifies the **labeled text sections** for R or python.
+2.  Identifies the **labeled text sections** for R or python.
 
-3. Writes new **unilingual source files** (qmds) in separate folders
+3.  Writes new **unilingual source files** (qmds) in separate folders
 
-4. (Optionally) **Renders** those source files
+4.  (Optionally) **Renders** those source files
 
-5. (Optionally) **Converts** the python one to ipynb.
-
+5.  (Optionally) **Converts** the python one to ipynb.
 
 # Example
 
@@ -185,14 +175,13 @@ templar::versions_quarto_multilingual(global_eval = FALSE,
 ```
 ````
 
-* `{version = "none"}`:  this code itself should not appear in generated files
+-   `{version = "none"}`: this code itself should not appear in generated files
 
-* `global_eval`: do you want to 
+-   `global_eval`: do you want to
 
-* `to_jupyter`: do you want to convert the python version?
+-   `to_jupyter`: do you want to convert the python version?
 
-* `warn_edit`:  put a warning at the top of generated files to not edit directly?
-
+-   `warn_edit`: put a warning at the top of generated files to not edit directly?
 
 ## Code chunk versions
 
@@ -211,7 +200,6 @@ df.info()
 ```
 
 ````
-
 
 ## Versioned text
 
@@ -257,35 +245,33 @@ kelly_df.info()
 
 ## Why it's useful
 
-* Keep the content creation all in one place - more **reproducible**!
+-   Keep the content creation all in one place - more **reproducible**!
 
-* Elements of the document can be **shared** - e.g. data descriptions, question prompts, css chunks
+-   Elements of the document can be **shared** - e.g. data descriptions, question prompts, css chunks
 
-* Give you **source files** to disseminate to students, not just *rendered files*.
+-   Give you **source files** to disseminate to students, not just *rendered files*.
 
-* (Also lets you do *student* and *solution* version, or *Exam A* and *Exam B*, etc.)
-
-     
+-   (Also lets you do *student* and *solution* version, or *Exam A* and *Exam B*, etc.)
 
 # What's next for `templar` and Quarto?
 
 ## Lua translation
 
-* **Parse** the source file text more elegantly
+-   **Parse** the source file text more elegantly
 
-* Match **syntax** to Quarto's 
+-   Match **syntax** to Quarto's
 
-* (`:::` instead of `%%%`)
+-   (`:::` instead of `%%%`)
 
-* (`#| version: R` instad of `{version = "R}`)
+-   (`#| version: R` instad of `{version = "R}`)
 
-* Do you know Lua and `knitr`?  Let's be friends.
+-   Do you know Lua and `knitr`? Let's be friends.
 
 ## Quarto's multi-output trick
 
 What it can do now:
 
-````{verbatim}
+```{verbatim}
 ---
 title: "My Versioned Doc"
 format: 
@@ -299,14 +285,13 @@ format:
 Click here to expand!
 :::
 
-````
-
+```
 
 ## Quarto's multi-output trick
 
 What I want:
 
-````{verbatim}
+```{verbatim}
 ---
 title: "My Versioned Doc"
 format: 
@@ -319,7 +304,7 @@ format:
 ::: {.content-visible when-variant="R"}
 The function `mutate()` will add a new variable.
 :::
-````
+```
 
 ## Resources
 
@@ -335,22 +320,18 @@ Contribute at [www.github.com/r-for-educators/templar](www.github.com/r-for-educ
 
 Examples of course materials generated with templar:
 
-[https://github.com/Statistical-Learning-with-R](https://github.com/Statistical-Learning-with-R)
-
-
+<https://github.com/Statistical-Learning-with-R>
 
 # Thank You!
 
 Find me:
 
-**Email:** kbodwin@calpoly.edu
+**Email:** kbodwin\@calpoly.edu
 
 **Website:** [www.kelly-bodwin.com](www.kelly-bodwin.com)
 
 **GitHub:** kbodwin
 
-**Mastodon:** kellybodwin@mastodon.social
+**Mastodon:** kellybodwin\@mastodon.social
 
 **Threads:** @kellbod
-
-
