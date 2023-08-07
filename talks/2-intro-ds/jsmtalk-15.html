@@ -8,10 +8,10 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.298">
+  <meta name="generator" content="quarto-1.3.450">
 
   <meta name="author" content="Dr.&nbsp;Elijah Meyer">
-  <meta name="dcterms.date" content="2023-08-06">
+  <meta name="dcterms.date" content="2023-08-07">
   <title>Teaching  in Introductory Data Science</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -241,8 +241,7 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    padding-bottom: 0.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -410,7 +409,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="images/lines.png, images/quarto_logo.png" data-background-position="left, 62% 18%" data-background-size="25% , 31%" class="quarto-title-block center">
+<section id="title-slide" data-background-image="../../images/quarto_logo.png" data-background-position="62% 18%" data-background-size="31%" class="quarto-title-block center">
   <h1 class="title">Teaching <br> in Introductory Data Science</h1>
 
 <div class="quarto-title-authors">
@@ -424,7 +423,7 @@ Dr.&nbsp;Elijah Meyer
     </div>
 </div>
 
-  <p class="date">2023-08-06</p>
+  <p class="date">2023-08-07</p>
 </section>
 <section id="outline" class="slide level2">
 <h2>Outline</h2>
@@ -437,8 +436,8 @@ Dr.&nbsp;Elijah Meyer
 </section>
 <section id="how-application-exercises" class="slide level2">
 <h2>How: Application Exercises</h2>
-
-<img data-src="images/ae-demo.gif" width="710" class="r-stretch"></section>
+<p><img data-src="images/ae-demo.gif" width="1000" height="600"></p>
+</section>
 <section id="when-first-teaching" class="slide level2">
 <h2>When First Teaching</h2>
 <ul>
@@ -454,7 +453,7 @@ Dr.&nbsp;Elijah Meyer
 <div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-s" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/source.png" data-ref-parent="fig-R2" width="1000"></p>
+<p><img data-src="images/source2.png" data-ref-parent="fig-R2" width="1000"></p>
 <figcaption>(a)</figcaption>
 </figure>
 </div>
@@ -462,7 +461,7 @@ Dr.&nbsp;Elijah Meyer
 <div class="quarto-layout-cell quarto-layout-cell-subref" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-v" class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/visual.png" data-ref-parent="fig-R2" width="1000"></p>
+<p><img data-src="images/visual2.png" data-ref-parent="fig-R2" width="1000"></p>
 <figcaption>(b)</figcaption>
 </figure>
 </div>
@@ -486,7 +485,7 @@ Dr.&nbsp;Elijah Meyer
 </section>
 <section id="informative-syntax-and-completion" class="slide level2">
 <h2>Informative Syntax and Completion</h2>
-<p><img data-src="images/figure-set.gif" data-wheidth="1000" height="300"></p>
+<p><img data-src="images/figure-set.gif" width="1000" height="600"></p>
 </section>
 <section id="informative-errors-and-common-mistakes" class="slide level2">
 <h2>Informative Errors and Common Mistakes</h2>
@@ -494,18 +493,13 @@ Dr.&nbsp;Elijah Meyer
 </section>
 <section id="missing-syntax" class="slide level2">
 <h2>Missing Syntax</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="in">#| label: plot1</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="in">#| warning false</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource {{r}} number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>#| label: plot1</span>
+<span id="cb1-2"><a href="#cb1-2"></a>#| warning false</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="fragment">
 <p><br></p>
 <p>In the <strong>Background Jobs</strong> pane:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">ERROR:</span> YAMLException: can not read a block mapping entry<span class="kw">;</span> <span class="ex">a</span> multiline key may not be an implicit key <span class="er">(</span><span class="ex">Untitled.qmd,</span> 7:17<span class="kw">)</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="ex">6:</span> <span class="co">#| label: plot1</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="ex">7:</span> <span class="co">#| warning false</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a>                  <span class="ex">~</span></span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="ex">8:</span> <span class="kw">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">Scanner</span> error: while scanning a simple key at line 2, column 1 could not find</span>
+<span id="cb2-2"><a href="#cb2-2"></a>  <span class="ex">expected</span> : at line 3, column 1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="indentation-error" class="slide level2">
@@ -690,6 +684,7 @@ Fanelli, Daniele. 2018. <span>“Is Science Really Facing a Reproducibility Cris
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
+'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -988,9 +983,10 @@ Fanelli, Daniele. 2018. <span>“Is Science Really Facing a Reproducibility Cris
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      function tippyHover(el, contentFn) {
         const config = {
           allowHTML: true,
+          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1000,17 +996,8 @@ Fanelli, Daniele. 2018. <span>“Is Science Really Facing a Reproducibility Cris
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start',
+          placement: 'bottom-start'
         };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
