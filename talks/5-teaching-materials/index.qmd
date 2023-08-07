@@ -13,10 +13,10 @@ In addition to creating reproducible documents, Quarto offers a rich suite of op
 ## Slides
 
 ```{=html}
-<iframe class="slide-deck" src="/talks/5-teaching-materials/quarto-teaching-materials.html" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="https://maria.quarto.pub/using-quarto-for-making-and-organizing-teaching-materials/#/title-slide" height="420" width="747" style="border: 1px solid #2e3846;"></iframe>
 ```
 ## Speaker
 
-![](maria-tackett-photo.png){fig-alt="A photo of Maria Tackett" fig-align="right" width="300"}
+![](maria-tackett-photo.png){style="float: right; padding-left: 10px;" fig-alt="A photo of Maria Tackett" fig-align="right" width="300"}
 
 Maria Tackett is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. Her research focuses on understanding factors that impact students' sense of belonging in introductory math and statistics courses with the aim to identify pedagogies that foster community and a supportive learning environment. She's an active member of the statistics education community and its effort to make statistics more engaging and accessible for all students.
