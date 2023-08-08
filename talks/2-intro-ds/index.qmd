@@ -19,4 +19,4 @@ Quarto, the next-generation version of R Markdown, is a powerful tool that helps
 
 ![](elijah.png){style="float: right; padding-left: 10px;" fig-alt="Photo of Elijah Meyer" width="300"}
 
-Elijah Meyer is currently a teaching postdoctoral associate at Duke University. Taught Quarto in introductory data science at Duke the last fall, spring, and summer sessions. His work focuses on curricula and course creation, as well as studying how to best support newer instructor's use of active learning.
+Elijah Meyer ([elijah.meyer\@duke.edu](mailto:elijah.meyer@duke.edu)) is currently a teaching postdoctoral associate at Duke University. Taught Quarto in introductory data science at Duke the last fall, spring, and summer sessions. His work focuses on curricula and course creation, as well as studying how to best support newer instructor's use of active learning.
