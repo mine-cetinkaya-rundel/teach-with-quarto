@@ -333,7 +333,7 @@
     "href": "talks/5-teaching-materials/quarto-teaching-materials.html#getting-started-slides-documents",
     "title": "Using Quarto for Making and Organizing Teaching Materials",
     "section": "Getting started: slides + documents",
-    "text": "Getting started: slides + documents\n\n\nBasic\nCustomized\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\n\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---"
+    "text": "Getting started: slides + documents\n\n\nBasic\nCustomized\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\nformat: revealjs\n---\n\n\n\n\n\n\n\nTip\n\n\nEasily produce multiple types of documents by changing the format in the YAML.\n\n\n\n\n\n\n---\ntitle: \"Lecture 01\"\nsubtitle: \"Statistics 101\"\nauthor: \"Instructor\"\ndate: \"August 7, 2023\"\ndate-format: long\nfooter: \"URL to course website\"\nformat: \n  revealjs:\n    theme: slides.scss\n    transition: fade\n    slide-number: false\n    incremental: false \n    chalkboard: \n    code-link: true\neditor: visual\nexecute: \n  eval: true\n  echo: true\n---"
   },
   {
     "objectID": "talks/5-teaching-materials/quarto-teaching-materials.html#getting-started-websites",
@@ -634,7 +634,7 @@
     "href": "talks/2-intro-ds/intro-ds.html#missing-syntax",
     "title": "Teaching  in Introductory Data Science",
     "section": "Missing Syntax",
-    "text": "Missing Syntax\n```{r}\n#| label: plot1\n#| warning false\n```\n\n\nIn the Background Jobs pane:\nScanner error: while scanning a simple key at line 2, column 1 could not find\n  expected : at line 3, column 1"
+    "text": "Missing Syntax\n#| label: plot1\n#| warning false\n\n\nIn the Background Jobs pane:\nScanner error: while scanning a simple key at line 2, column 1 could not find\n  expected : at line 3, column 1"
   },
   {
     "objectID": "talks/2-intro-ds/intro-ds.html#indentation-error",
